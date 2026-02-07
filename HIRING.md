@@ -9,10 +9,9 @@
 
 ## 🏆 Top 3 Portfolio Highlights
 
-### 1. Elite Binary Exploitation Skills
-- **StackSmash:** 3rd of 204 (Top 1.5%) in competitive binary exploitation/RE
-- **pwn.college:** 158/158 completions (Linux Luminarium + x86 Assembly)
-- **Evidence:** Detailed write-ups with GDB analysis, exploit development, methodology
+### 1. Binary Exploitation (Challenge Writeups)
+- Competitive + educational writeups focused on reasoning, validation, and clean methodology
+- Evidence: Detailed write-ups with GDB analysis, exploit development, methodology
 
 ### 2. Comprehensive Web Application Security
 - **40+ OWASP-style writeups:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
@@ -28,7 +27,7 @@
 
 | Skill Category | Level | Key Evidence |
 |----------------|-------|--------------|
-| **Binary Exploitation** | Expert | Top 1.5% ranking, 158/158 pwn.college |
+| **Binary Exploitation** | Advanced | Challenge writeups + methodology (GDB/pwntools where applicable) |
 | **Web App Security** | Advanced | 40+ OWASP-style writeups, all Top 10 categories |
 | **Active Directory** | Intermediate | AD-RTS cert, attack chain methodology |
 | **Reverse Engineering** | Advanced | StackSmash challenges, GDB analysis |
@@ -81,6 +80,6 @@
 5. "How do you stay current with offensive techniques?"
 
 ---
-*Portfolio last updated: January 10, 2026*  
-*Contact: [Your Email] | [Your LinkedIn]*  
-*Response time: <24 hours for interview requests*
+*Portfolio last updated: February 2026*  
+*Contact: Darrius.G@proton.me | https://www.linkedin.com/in/darrius-grate/*  
+*Response time: typically within 24 hours*

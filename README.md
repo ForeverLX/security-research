@@ -10,7 +10,7 @@
 
 ### **For Hiring Managers (2-Minute Review)**
 1. **AD-RTS Certification** → [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
-2. **Binary Exploitation Ranking** → [🥇 Top 1.5% StackSmash](#binary-exploitation)
+2. **Binary Exploitation Writeups** → [Challenge writeups](#binary-exploitation)
 3. **Professional Methodology** → [📋 Enterprise AD Attack Chain](#enterprise-ad-attack-chain)
 
 ### **For Technical Interviewers (5-Minute Review)**
@@ -28,9 +28,7 @@
 
 ## ⭐ PORTFOLIO HIGHLIGHTS
 
-### **1. Competitive Binary Exploitation** 🥇
-- **StackSmash:** Ranked 3rd of 204 (Top 1.5%) in competitive binary exploitation/RE
-- **pwn.college:** Completed 158/158 challenges (Linux Luminarium + x86 Assembly)
+### **1. Binary Exploitation (Challenge Writeups)**
 - **Technical Depth:** Memory corruption, ROP chains, exploit development with GDB/pwntools
 - **Evidence:** [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
 
@@ -41,7 +39,7 @@
 - **Verification:** [📜 Official Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
 
 ### **3. Comprehensive Web Security** 🌐
-- **Scope:** 40+ OWASP-style writeups completed (December 2025 - January 2026)
+- **Scope:** 40+ OWASP-style writeups completed (December 2025 - February 2026)
 - **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
 - **Documentation:** Detailed write-ups with exploitation steps and mitigation strategies
 - **Evidence:** [`writeups/web-security/`](writeups/web-security/)
@@ -161,7 +159,6 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 |-------------|------|
 | **Active Directory Red Team Specialist** | [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2) |
 | **StackSmash Profile** | [🥇 3rd of 204](https://members.stacksmash.io/u/0119f178) |
-| **pwn.college Progress** | [📚 158/158](https://pwn.college/hacker/) |
 | **ACLGuard Tool** | [🛠️ Repository](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor) |
 | **OWASP Las Vegas** | [🌐 Chapter Page](https://owasp.org/www-chapter-las-vegas/) |
 
@@ -179,7 +176,7 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 - **LinkedIn:** [Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
 - **GitHub:** [github.com/ForeverLX](https://github.com/ForeverLX)
 
-**Portfolio Last Updated:** January 2026
+**Portfolio Last Updated:** February 2026
 
 ---
 *All security testing conducted in controlled, authorized environments for educational purposes. This README is engineered to convey not just activity but disciplined technical judgment.*
