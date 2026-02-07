@@ -15,7 +15,7 @@
 - **Evidence:** Detailed write-ups with GDB analysis, exploit development, methodology
 
 ### 2. Comprehensive Web Application Security
-- **60+ OWASP Top 10 Labs:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
+- **40+ OWASP-style labs:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
 - **Advanced Techniques:** Filter bypass, WAF evasion, templating engine exploitation
 - **Evidence:** Step-by-step exploitation with mitigation strategies
 
@@ -29,7 +29,7 @@
 | Skill Category | Level | Key Evidence |
 |----------------|-------|--------------|
 | **Binary Exploitation** | Expert | Top 1.5% ranking, 158/158 pwn.college |
-| **Web App Security** | Advanced | 60+ OWASP labs, all Top 10 categories |
+| **Web App Security** | Advanced | 40+ OWASP-style labs, all Top 10 categories |
 | **Active Directory** | Intermediate | AD-RTS cert, attack chain methodology |
 | **Reverse Engineering** | Advanced | StackSmash challenges, GDB analysis |
 | **Tool Development** | Intermediate | ACLGuard (C), custom scripts |
@@ -67,7 +67,7 @@
 ## 🔗 Quick Links for Reviewers
 
 1. **Best Binary Exploitation:** `projects/binary-exploitation/stacksmash-showcase.md`
-2. **Best Web Security:** `labs/web-security/ssrf/advanced-ssrf-northstarstudio.md`
+2. **Best Web Security:** `writeups/web-security/ssrf/advanced-ssrf-northstarstudio.md`
 3. **Enterprise AD:** `projects/ad-exploitation/` (in development)
 4. **Custom Tool:** `https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor`
 5. **Certifications:** `assets/certificates/`

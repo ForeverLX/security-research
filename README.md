@@ -15,7 +15,7 @@
 
 ### **For Technical Interviewers (5-Minute Review)**
 1. **Binary Exploitation Showcase** → [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
-2. **Web Security Mastery** → [60+ OWASP Labs](#web-application-security)
+2. **Web Security Mastery** → [40+ OWASP-style writeups](#web-application-security)
 3. **Tool Development** → [🛠️ ACLGuard - AD Permission Auditor](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
 
 ### **For Recruiters (30-Second Review)**
@@ -41,10 +41,10 @@
 - **Verification:** [📜 Official Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
 
 ### **3. Comprehensive Web Security** 🌐
-- **Scope:** 60+ OWASP Top 10 labs completed (December 2025 - January 2026)
+- **Scope:** 40+ OWASP-style writeups completed (December 2025 - January 2026)
 - **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
 - **Documentation:** Detailed write-ups with exploitation steps and mitigation strategies
-- **Evidence:** [`labs/web-security/`](labs/web-security/)
+- **Evidence:** [`writeups/web-security/`](writeups/web-security/)
 
 ### **4. Security Tool Development** 🛠️
 - **ACLGuard:** Custom C-based Active Directory permission auditor
@@ -67,7 +67,7 @@ security-portfolio/
 │ ├── binary-exploitation/ # StackSmash + pwn.college showcase
 │ ├── ad-exploitation/ # Enterprise AD attack chain (in development)
 │ └── tool-development/ # ACLGuard integration (planned)
-├── labs/ # 60+ hands-on exercises
+├── writeups/ # 40+ hands-on writeups
 │ ├── web-security/ # OWASP Top 10 vulnerability types
 │ ├── penetration-testing/ # Real-world scenarios
 │ └── reverse-engineering/ # Binary analysis challenges
@@ -80,7 +80,7 @@ security-portfolio/
 | Category | Skill | Evidence |
 |----------|-------|----------|
 | **Binary Exploitation** | x86_64 assembly, memory corruption, ROP chains | StackSmash ranking, pwn.college completion |
-| **Web Application Security** | OWASP Top 10, advanced filter bypass | 60+ lab write-ups with exploitation steps |
+| **Web Application Security** | OWASP Top 10, advanced filter bypass | 40+ OWASP-style writeups with exploitation steps |
 | **Active Directory** | Kerberos attacks, lateral movement, persistence | AD-RTS certification, attack chain methodology |
 | **Reverse Engineering** | GDB analysis, binary analysis, debugging | StackSmash challenges, Hackviser labs |
 | **Tool Development** | C programming, security tool architecture | ACLGuard repository with source code |

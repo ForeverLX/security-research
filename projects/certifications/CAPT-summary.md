@@ -1,7 +1,7 @@
 # CAPT Certification: Web Application Security Mastery
 
 ## 📊 Completion at Scale
-**60+ Hands-on Labs** | December 2025 - January 2026
+**Dozens of Hands-on Labs** | December 2025 - January 2026
 
 ### 🎯 Methodology Demonstrated
 1. **Systematic Approach**: Daily lab completions showing consistent skill development
@@ -26,8 +26,8 @@
 - **Persistence**: Completing complex multi-step labs
 
 ### 🖼️ Visual Proof
-![60+ Lab Completions Grid](../../assets/certificates/CAPT/summaries/all-labs-grid.jpg)
-*Grid showing systematic completion of 60+ hands-on labs*
+![Lab Completions Grid](../../assets/certificates/CAPT/summaries/all-labs-grid.jpg)
+*Grid showing systematic lab completion across many scenarios*
 
 ### 🎖️ Certification Verification
 - **Issuer**: Hackviser
