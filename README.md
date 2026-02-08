@@ -68,17 +68,19 @@
 
 ## 📁 PORTFOLIO STRUCTURE
 
+```text
 security-portfolio/
 ├── HIRING.md # One-page summary for recruiters
 ├── projects/ # Deep-dive technical projects
-│ ├── binary-exploitation/ # StackSmash + pwn.college showcase
-│ ├── ad-exploitation/ # Enterprise AD attack chain (in development)
-│ └── tool-development/ # ACLGuard integration (planned)
+│   ├── binary-exploitation/ # StackSmash + pwn.college showcase
+│   ├── ad-exploitation/ # Enterprise AD attack chain (in development)
+│   └── tool-development/ # ACLGuard integration (planned)
 ├── writeups/ # 40+ hands-on writeups
-│ ├── web-security/ # OWASP Top 10 vulnerability types
-│ ├── penetration-testing/ # Real-world scenarios
-│ └── reverse-engineering/ # Binary analysis challenges
+│   ├── web-security/ # OWASP Top 10 vulnerability types
+│   ├── penetration-testing/ # Real-world scenarios
+│   └── reverse-engineering/ # Binary analysis challenges
 └── assets/certificates/ # Professional certifications
+```
 
 ---
 
