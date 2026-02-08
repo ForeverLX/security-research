@@ -31,39 +31,33 @@
 
 ## ⭐ PORTFOLIO HIGHLIGHTS
 
-## Binary Exploitation
-
-### 1. Binary Exploitation (Challenge Writeups)
+### Binary Exploitation (Challenge Writeups)
 
 - **Technical Depth:** Memory corruption, ROP chains, exploit development with GDB/pwntools
 - **Evidence:** [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
 
-## Enterprise AD Attack Chain
-
-### 2. Enterprise AD Attack Chain 🏢
+### Enterprise AD Attack Chain
 
 - **Certification:** Active Directory Red Team Specialist (AD-RTS) - November 2025
 - **Scope:** Full domain compromise from initial access to persistence
 - **Methodology:** Reconnaissance → Lateral Movement → Privilege Escalation → Domain Admin
 - **Verification:** [📜 Official Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
 
-## Web Application Security
-
-### 3. Comprehensive Web Security 🌐
+### Web Application Security
 
 - **Scope:** 40+ OWASP-style writeups completed (December 2025 - February 2026)
 - **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
 - **Documentation:** Detailed write-ups with exploitation steps and mitigation strategies
 - **Evidence:** [`writeups/web-security/`](writeups/web-security/)
 
-### **4. Security Tool Development** 🛠️
+### Security Tool Development
 
 - **ACLGuard:** Custom C-based Active Directory permission auditor
 - **Purpose:** Identify risky ACLs and privilege escalation paths in AD environments
 - **Technology:** C programming, LDAP queries, CSV/JSON output formats
 - **Repository:** [github.com/ForeverLX/ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
 
-### **5. Professional Methodology** 📋
+### Professional Methodology
 
 - **Controlled Environment:** All testing in authorized lab environments
 - **Documentation:** Step-by-step methodology with commands and outputs
@@ -172,7 +166,6 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 - Tooling integrated for offensive workflows
 
 ---
-
 
 ## 🔗 VERIFICATION LINKS
 
