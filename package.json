@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "fmt": "prettier -w \"**/*.md\"",
-    "lint:md": "markdownlint-cli2 \"**/*.md\"",
-    "lint:md:fix": "markdownlint-cli2 --fix \"**/*.md\"",
-    "check": "npm run lint:md"
-  }
-}
-
