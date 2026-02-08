@@ -10,50 +10,58 @@
 ## 🏆 Top 3 Portfolio Highlights
 
 ### 1. Binary Exploitation (Challenge Writeups)
+
 - Competitive + educational writeups focused on reasoning, validation, and clean methodology
 - Evidence: Detailed write-ups with GDB analysis, exploit development, methodology
 
 ### 2. Comprehensive Web Application Security
+
 - **40+ OWASP-style writeups:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
 - **Advanced Techniques:** Filter bypass, WAF evasion, templating engine exploitation
 - **Evidence:** Step-by-step exploitation with mitigation strategies
 
 ### 3. Enterprise Active Directory Expertise
+
 - **AD-RTS Certified:** Active Directory Red Team Specialist (CyberWarfare Labs)
 - **Full Attack Chain:** Domain compromise from initial access to persistence
 - **Tool Development:** ACLGuard (C-based AD permission analyzer)
 
 ## 📊 Technical Skills Matrix
 
-| Skill Category | Level | Key Evidence |
-|----------------|-------|--------------|
-| **Binary Exploitation** | Advanced | Challenge writeups + methodology (GDB/pwntools where applicable) |
-| **Web App Security** | Advanced | 40+ OWASP-style writeups, all Top 10 categories |
-| **Active Directory** | Intermediate | AD-RTS cert, attack chain methodology |
-| **Reverse Engineering** | Advanced | StackSmash challenges, GDB analysis |
-| **Tool Development** | Intermediate | ACLGuard (C), custom scripts |
-| **Penetration Testing** | Advanced | Professional scenarios, report writing |
+| Skill Category          | Level        | Key Evidence                                                     |
+| ----------------------- | ------------ | ---------------------------------------------------------------- |
+| **Binary Exploitation** | Advanced     | Challenge writeups + methodology (GDB/pwntools where applicable) |
+| **Web App Security**    | Advanced     | 40+ OWASP-style writeups, all Top 10 categories                  |
+| **Active Directory**    | Intermediate | AD-RTS cert, attack chain methodology                            |
+| **Reverse Engineering** | Advanced     | StackSmash challenges, GDB analysis                              |
+| **Tool Development**    | Intermediate | ACLGuard (C), custom scripts                                     |
+| **Penetration Testing** | Advanced     | Professional scenarios, report writing                           |
 
 ## 🎤 Interview Talking Points
 
 ### Technical Depth Example:
+
 "Walk through my StackSmash challenge #X where I bypassed ASLR and NX using a ROP chain with GOT overwrite. The key insight was..."
 
 ### Methodology Example:
+
 "My AD attack chain follows a systematic approach: initial foothold → enumeration → credential harvesting → lateral movement → persistence. For example, in the ESC1 ADCS attack..."
 
 ### Problem-Solving Example:
+
 "When developing ACLGuard, I faced [challenge] and solved it by [solution], which improved performance by X% and caught [specific vulnerability type]."
 
 ## 🎯 Ideal Role Fit
 
 ### Perfect For:
+
 - Red Team Engineer positions requiring low-level exploitation skills
 - Vulnerability Research roles focused on web/enterprise applications
 - Application Security Engineer roles with offensive testing requirements
 - Security Consultant positions needing comprehensive assessment skills
 
 ### Unique Value Proposition:
+
 "Binary exploitation specialist with comprehensive web security knowledge and enterprise AD experience. Brings systematic methodology and tool development skills to offensive security teams."
 
 ## 📞 Interview Availability
@@ -80,6 +88,7 @@
 5. "How do you stay current with offensive techniques?"
 
 ---
-*Portfolio last updated: February 2026*  
-*Contact: Darrius.G@proton.me | https://www.linkedin.com/in/darrius-grate/*  
-*Response time: typically within 24 hours*
+
+_Portfolio last updated: February 2026_  
+_Contact: Darrius.G@proton.me | https://www.linkedin.com/in/darrius-grate/_  
+_Response time: typically within 24 hours_

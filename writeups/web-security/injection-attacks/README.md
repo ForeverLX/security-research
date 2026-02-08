@@ -1,6 +1,7 @@
 # Command Injection - Advanced Filter Bypass Portfolio
 
 ## 📊 Skills Validated
+
 - **Shell Metacharacter Mastery**: `;`, `|`, `&`, `||`, `&&`, `\n`, `\r`
 - **Filter Evasion**: Bypassing keyword blacklists via obfuscation
 - **Context Analysis**: Understanding shell vs. language (Perl, Python) execution
@@ -9,12 +10,14 @@
 ## 🔬 Completed Command Injection Challenges
 
 ### 1. Basic Command Injection - living-ink.apac01.hackviser.space
+
 **Vulnerability**: `search` parameter passed to Perl `system()` call
 **Payload**: `canon-eos-rebel-t7 | hostname`
 **Impact**: Server hostname disclosure (`brilliance`)
 **Skills**: Pipe operator exploitation, Perl security analysis
 
 ### 2. Improved Filter Bypass - inviting-mysterio.apac01.hackviser.space
+
 **Vulnerability**: `query` parameter with command blacklist
 **Bypass Technique**: Newline (`%0A`) + string concatenation (`h"o"st"na"me`)
 **Payload**: `google.com%0Ah"o"st"na"me`
@@ -24,6 +27,7 @@
 ## 🎯 Advanced Bypass Techniques Demonstrated
 
 ### Character-Level Obfuscation
+
 ```bash
 # Original command blocked: hostname
 h"o"st"na"me  # String concatenation
@@ -57,3 +61,4 @@ Input Validation Libraries: OWASP ESAPI, PHP filter functions
 Custom Security Filters: Homegrown validation logic
 
 All exercises conducted in controlled, authorized environments.
+```

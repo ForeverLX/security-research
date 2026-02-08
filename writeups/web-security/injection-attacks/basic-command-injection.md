@@ -1,9 +1,11 @@
 # Basic Command Injection - Perl System() Exploitation
 
 ## 🎯 Objective
+
 Exploit a command injection vulnerability in a Perl-based web application to execute arbitrary system commands.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type:** Command Injection
 - **Endpoint:** Search functionality
 - **Parameter:** `search`
@@ -11,6 +13,7 @@ Exploit a command injection vulnerability in a Perl-based web application to exe
 - **Impact:** Remote code execution with web server privileges
 
 ## 💥 Exploitation
+
 ```http
 GET /search?search=canon-eos-rebel-t7 | hostname HTTP/1.1
 Host: living-ink.apac01.hackviser.space
@@ -35,3 +38,4 @@ Perl Security: Understanding Perl-specific command execution vulnerabilities
 Privilege Analysis: Assessing execution context and potential impact
 
 Conducted in controlled environment for educational purposes
+```

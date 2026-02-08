@@ -1,0 +1,10 @@
+{
+  "config": {
+    "default": true
+  },
+  "ignores": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**"
+  ]
+}

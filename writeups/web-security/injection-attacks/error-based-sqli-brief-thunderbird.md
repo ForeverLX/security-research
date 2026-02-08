@@ -1,9 +1,11 @@
 # Error-Based SQL Injection
 
 ## 🎯 Objective
+
 Extract database information by triggering and analyzing SQL error messages.
 
 ## 🔍 Vulnerability Analysis
+
 - **Type**: Error-Based SQL Injection
 - **Target**: Web application with an `img` parameter vulnerable to SQL injection
 - **Flaw**: Improper error handling revealing database information
@@ -12,16 +14,19 @@ Extract database information by triggering and analyzing SQL error messages.
 ## 💥 Exploitation
 
 ### Initial Challenge
+
 - **First Attempt**: Direct error-based technique failed due to HTTP redirect
 - **Issue**: 302 redirect prevented immediate error reflection
 
 ### Solution
+
 - **Target Identification**: Final redirected URL containing vulnerable parameter
 - **Tool Usage**: sqlmap without technique restriction for automatic detection
 - **Command**:
   ```bash
   sqlmap -u "https://target/index.php?img=1" --batch --dbs
-Result: Successfully extracted database information
+  Result: Successfully extracted database information
+  ```
 
 🛡️ Mitigation Strategies
 Error Handling: Generic error messages without database details
