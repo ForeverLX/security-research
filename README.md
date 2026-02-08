@@ -1,35 +1,35 @@
-# 🎯 Darrius Grate | Offensive Security Portfolio
+# Darrius Grate | Offensive Security Portfolio
 
-**Location:** Las Vegas, NV
-**Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer
-**Portfolio:** <https://github.com/ForeverLX/security-portfolio>
+**Location:** Las Vegas, NV  
+**Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer  
+**Portfolio:** <https://github.com/ForeverLX/security-portfolio>  
 
 ---
 
-## 🏆 QUICK NAVIGATION - Start Here
+## QUICK NAVIGATION - Start Here
 
-### **For Hiring Managers (2-Minute Review)**
+### For Hiring Managers (2-Minute Review)
 
 1. **AD-RTS Certification** → [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
 2. **Binary Exploitation Writeups** → [Challenge writeups](#binary-exploitation-challenge-writeups)
 3. **Professional Methodology** → [📋 Enterprise AD Attack Chain](#enterprise-ad-attack-chain)
 
-### **For Technical Interviewers (5-Minute Review)**
+### For Technical Interviewers (5-Minute Review)
 
-1. **Binary Exploitation Showcase** → [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
-2. **Web Security Mastery** → [40+ OWASP-style writeups](#web-application-security)
-3. **Tool Development** → [🛠️ ACLGuard - AD Permission Auditor](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
+1.**Binary Exploitation Showcase** → [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
+2.**Web Security Mastery** → [40+ OWASP-style writeups](#web-application-security)
+3.**ToolDevelopment** → [🛠️ ACLGuard - AD Permission Auditor](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
 
-### **For Recruiters (30-Second Review)**
+### For Recruiters (30-Second Review)
 
-- **📞 Contact:** <Darrius.G@proton.me>
-- **📍 Location:** Las Vegas, NV (Open to Remote)
-- **🚀 Availability:** Immediate
-- **🎯 Target:** Red Team / Vulnerability Research Roles
+- ** Contact:** <Darrius.G@proton.me>
+- ** Location:** Las Vegas, NV (Open to Remote)
+- ** Availability:** Immediate
+- ** Target:** Red Team / Vulnerability Research Roles
 
 ---
 
-## ⭐ PORTFOLIO HIGHLIGHTS
+## PORTFOLIO HIGHLIGHTS
 
 ### Binary Exploitation (Challenge Writeups)
 
@@ -66,7 +66,7 @@
 
 ---
 
-## 📁 PORTFOLIO STRUCTURE
+## PORTFOLIO STRUCTURE
 
 ```text
 security-portfolio/
@@ -84,7 +84,7 @@ security-portfolio/
 
 ---
 
-## 🎯 SKILLS MATRIX
+## SKILLS MATRIX
 
 | Category                     | Skill                                           | Evidence                                         |
 | ---------------------------- | ----------------------------------------------- | ------------------------------------------------ |
@@ -97,7 +97,7 @@ security-portfolio/
 
 ---
 
-## 📈 CAREER NARRATIVE
+## CAREER NARRATIVE
 
 **Transition:** Physical Security → Technical Offensive Security
 **Approach:** Systematic, evidence-based skill development
@@ -108,9 +108,9 @@ My background in physical security provides a holistic understanding of organiza
 
 ---
 
-## 🧪 Field Report: Engineering a Security-Focused Linux Platform
+## Field Report: Engineering a Security-Focused Linux Platform
 
-### 🌐 Motivation & Design Goals
+### Motivation & Design Goals
 
 Offensive workflows demand:
 
@@ -130,28 +130,28 @@ Offensive workflows demand:
 
 ---
 
-## 🧩 Key Engineering Decisions & Tradeoffs
+## Key Engineering Decisions & Tradeoffs
 
-### 🧠 Wayland over X11
+### Wayland over X11
 
 _Rationale:_ Reduced legacy risk and attack surface.
 
-### 🚀 Minimal Services and No Display Manager
+### Minimal Services and No Display Manager
 
 _Rationale:_ Explicit session control, reduce background processes.
 
-### 📟 Terminal Selection
+### Terminal Selection
 
 - Ghostty (stable, minimal)
 - Warp evaluated; usable but not primary due to integration complexity
 
-### 🔇 Audio Omission as Intentional Design Choice
+### Audio Omission as Intentional Design Choice
 
 Audio stacks add complexity with minimal operational benefit in offensive workflows — deliberately excluded to simplify system and reduce surface area.
 
 ---
 
-## 🧪 Troubleshooting & Lessons Learned
+## Troubleshooting & Lessons Learned
 
 - CPU power management tuning before stability caused boot issues — _stability first_.
 - Custom PipeWire configs regressed audio state — _baseline resets matter_.
@@ -159,7 +159,7 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 
 ---
 
-## 📊 Current Status
+## Current Status
 
 - Stable Sway workstation environment
 - Minimal services and attack surface
@@ -169,7 +169,7 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 
 ---
 
-## 🔗 VERIFICATION LINKS
+## VERIFICATION LINKS
 
 | Achievement                              | Link                                                                                                  |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -180,7 +180,7 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 
 ---
 
-## 📞 CONTACT & NEXT STEPS
+## CONTACT & NEXT STEPS
 
 **Ready for Technical Interviews:**
 
