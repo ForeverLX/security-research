@@ -32,10 +32,10 @@ Conduct a proactive investigation into a ransomware attack by infiltrating the a
 
 ## 🛡️ Mitigation Strategies
 
-1.  **Input Sanitization:** Implement strict output encoding for user-controlled data reflected in chat.
-2.  **Cookie Security:** Set the `HttpOnly` and `Secure` flags on all session cookies.
-3.  **Authentication Checks:** Enforce `POST` requests for state-changing actions and implement robust anti-CSRF tokens.
-4.  **Default Credentials:** Eliminate default logins for ancillary services.
+1. **Input Sanitization:** Implement strict output encoding for user-controlled data reflected in chat.
+2. **Cookie Security:** Set the `HttpOnly` and `Secure` flags on all session cookies.
+3. **Authentication Checks:** Enforce `POST` requests for state-changing actions and implement robust anti-CSRF tokens.
+4. **Default Credentials:** Eliminate default logins for ancillary services.
 
 ## 📊 Skills Demonstrated
 

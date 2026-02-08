@@ -1,8 +1,8 @@
 # 🎯 Darrius Grate | Offensive Security Portfolio
 
-**Location:** Las Vegas, NV  
-**Target Role:** Red Team Engineer / Vulnerability Researcher  
-**Portfolio:** https://github.com/ForeverLX/security-portfolio
+**Location:** Las Vegas, NV
+**Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer
+**Portfolio:** <https://github.com/ForeverLX/security-portfolio>
 
 ---
 
@@ -11,7 +11,7 @@
 ### **For Hiring Managers (2-Minute Review)**
 
 1. **AD-RTS Certification** → [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
-2. **Binary Exploitation Writeups** → [Challenge writeups](#binary-exploitation)
+2. **Binary Exploitation Writeups** → [Challenge writeups](#binary-exploitation-challenge-writeups)
 3. **Professional Methodology** → [📋 Enterprise AD Attack Chain](#enterprise-ad-attack-chain)
 
 ### **For Technical Interviewers (5-Minute Review)**
@@ -22,7 +22,7 @@
 
 ### **For Recruiters (30-Second Review)**
 
-- **📞 Contact:** Darrius.G@proton.me
+- **📞 Contact:** <Darrius.G@proton.me>
 - **📍 Location:** Las Vegas, NV (Open to Remote)
 - **🚀 Availability:** Immediate
 - **🎯 Target:** Red Team / Vulnerability Research Roles
@@ -31,19 +31,25 @@
 
 ## ⭐ PORTFOLIO HIGHLIGHTS
 
-### **1. Binary Exploitation (Challenge Writeups)**
+## Binary Exploitation
+
+### 1. Binary Exploitation (Challenge Writeups)
 
 - **Technical Depth:** Memory corruption, ROP chains, exploit development with GDB/pwntools
 - **Evidence:** [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
 
-### **2. Enterprise AD Attack Chain** 🏢
+## Enterprise AD Attack Chain
+
+### 2. Enterprise AD Attack Chain 🏢
 
 - **Certification:** Active Directory Red Team Specialist (AD-RTS) - November 2025
 - **Scope:** Full domain compromise from initial access to persistence
 - **Methodology:** Reconnaissance → Lateral Movement → Privilege Escalation → Domain Admin
 - **Verification:** [📜 Official Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
 
-### **3. Comprehensive Web Security** 🌐
+## Web Application Security
+
+### 3. Comprehensive Web Security 🌐
 
 - **Scope:** 40+ OWASP-style writeups completed (December 2025 - February 2026)
 - **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
@@ -97,9 +103,9 @@ security-portfolio/
 
 ## 📈 CAREER NARRATIVE
 
-**Transition:** Physical Security → Technical Offensive Security  
-**Approach:** Systematic, evidence-based skill development  
-**Proof:** Verifiable certifications + competitive rankings + tool development  
+**Transition:** Physical Security → Technical Offensive Security
+**Approach:** Systematic, evidence-based skill development
+**Proof:** Verifiable certifications + competitive rankings + tool development
 **Leadership:** OWASP Las Vegas Chapter Founder & Leader
 
 My background in physical security provides a holistic understanding of organizational risk. I apply the same systematic approach to offensive security: identify vulnerabilities, demonstrate impact, and provide actionable remediation.
@@ -167,7 +173,6 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 
 ---
 
->
 
 ## 🔗 VERIFICATION LINKS
 
@@ -190,7 +195,7 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 
 **Connect With Me:**
 
-- **Email:** Darrius.G@proton.me
+- **Email:** [Darrius.G@proton.me](mailto:Darrius.G@proton.me)
 - **LinkedIn:** [Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
 - **GitHub:** [github.com/ForeverLX](https://github.com/ForeverLX)
 

@@ -30,4 +30,6 @@ Bypass comprehensive file upload restrictions by overriding server configuration
 - **Configuration Override**: Modifying server behavior via uploaded files
 - **Comprehensive Bypass**: Overcoming multiple layers of file validation
 
-_Conducted in controlled environment for educational purposes_
+## Notes
+
+Conducted in controlled environment for educational purposes.

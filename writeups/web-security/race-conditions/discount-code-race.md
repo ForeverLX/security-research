@@ -31,4 +31,6 @@ Exploit time-of-check-time-of-use (TOCTOU) vulnerability to apply discount multi
 - **Automated Testing**: Using scripts to trigger race conditions
 - **Business Logic Security**: Identifying flaws in financial transaction logic
 
-_Conducted in controlled environment for educational purposes_
+## Notes
+
+Conducted in controlled environment for educational purposes.

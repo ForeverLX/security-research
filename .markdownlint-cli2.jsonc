@@ -1,10 +1,11 @@
 {
+  "globs": ["**/*.md"],
+  "ignores": ["**/node_modules/**", "**/dist/**", "**/build/**"],
   "config": {
-    "default": true
-  },
-  "ignores": [
-    "**/node_modules/**",
-    "**/dist/**",
-    "**/build/**"
-  ]
+    "default": true,
+    "MD013": false, // line length off (or keep with 120 if you prefer)
+    "MD034": true,  // no bare URLs
+    "MD051": true   // validate TOC fragments
+  }
 }
+

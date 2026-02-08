@@ -4,7 +4,7 @@
 
 **Target Role:** Red Team Engineer / Vulnerability Researcher  
 **Location:** Las Vegas, NV (Open to Remote)  
-**Portfolio:** https://github.com/ForeverLX/security-portfolio  
+**Portfolio:** <https://github.com/ForeverLX/security-portfolio>  
 **Status:** Actively interviewing, available immediately
 
 ## 🏆 Top 3 Portfolio Highlights
@@ -39,28 +39,28 @@
 
 ## 🎤 Interview Talking Points
 
-### Technical Depth Example:
+### Technical Depth Example
 
 "Walk through my StackSmash challenge #X where I bypassed ASLR and NX using a ROP chain with GOT overwrite. The key insight was..."
 
-### Methodology Example:
+### Methodology Example
 
 "My AD attack chain follows a systematic approach: initial foothold → enumeration → credential harvesting → lateral movement → persistence. For example, in the ESC1 ADCS attack..."
 
-### Problem-Solving Example:
+### Problem-Solving Example
 
 "When developing ACLGuard, I faced [challenge] and solved it by [solution], which improved performance by X% and caught [specific vulnerability type]."
 
 ## 🎯 Ideal Role Fit
 
-### Perfect For:
+### Perfect For
 
 - Red Team Engineer positions requiring low-level exploitation skills
 - Vulnerability Research roles focused on web/enterprise applications
 - Application Security Engineer roles with offensive testing requirements
 - Security Consultant positions needing comprehensive assessment skills
 
-### Unique Value Proposition:
+### Unique Value Proposition
 
 "Binary exploitation specialist with comprehensive web security knowledge and enterprise AD experience. Brings systematic methodology and tool development skills to offensive security teams."
 
@@ -90,5 +90,5 @@
 ---
 
 _Portfolio last updated: February 2026_  
-_Contact: Darrius.G@proton.me | https://www.linkedin.com/in/darrius-grate/_  
+_Contact: <Darrius.G@proton.me> | <https://www.linkedin.com/in/darrius-grate/>_  
 _Response time: typically within 24 hours_

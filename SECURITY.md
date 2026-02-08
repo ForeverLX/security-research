@@ -9,7 +9,7 @@ If you believe something here creates risk (e.g., accidental secret exposure), p
 
 If you discover a security issue related to this repository (for example: leaked credentials, private tokens, sensitive endpoints, or personal data), please report it privately:
 
-- **Email:** Darrius.G@proton.me
+- **Email:** <Darrius.G@proton.me>
 - **Subject:** `SECURITY: <short summary>`
 
 Please include:

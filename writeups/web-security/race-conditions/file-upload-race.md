@@ -1,9 +1,3 @@
-# Race Condition - File Upload Validation Bypass
-
-## 🎯 Objective
-
-Exploit a file upload race condition to execute malicious code before validation completes.
-
 # Race Condition: File Upload Validation Bypass
 
 ## 🎯 Objective
@@ -37,4 +31,6 @@ Exploit file upload race condition to execute malicious code before validation c
 - **File Upload Security**: Understanding file validation processes
 - **Concurrent Execution**: Coordinating multiple simultaneous operations
 
-_Conducted in controlled environment for educational purposes_
+## Notes
+
+Conducted in controlled environment for educational purposes.

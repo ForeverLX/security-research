@@ -42,4 +42,6 @@ _Grid showing systematic lab completion across many scenarios_
 
 ---
 
-_Part of my comprehensive offensive security skill set - bridging web app security with Active Directory exploitation_
+## Notes
+
+Part of my comprehensive offensive security skill set - bridging web app security with Active Directory exploitation.

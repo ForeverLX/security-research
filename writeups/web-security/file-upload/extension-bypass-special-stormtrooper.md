@@ -31,4 +31,6 @@ Bypass file extension blacklist to upload and execute PHP code.
 - **Alternative Extension Usage**: Using non-standard PHP handlers
 - **Server Configuration Understanding**: Knowing which extensions execute as PHP
 
-_Conducted in controlled environment for educational purposes_
+## Notes
+
+Conducted in controlled environment for educational purposes.
