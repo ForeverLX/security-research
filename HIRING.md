@@ -9,13 +9,12 @@
 
 ## 🏆 Top 3 Portfolio Highlights
 
-### 1. Elite Binary Exploitation Skills
-- **StackSmash:** 3rd of 204 (Top 1.5%) in competitive binary exploitation/RE
-- **pwn.college:** 158/158 completions (Linux Luminarium + x86 Assembly)
-- **Evidence:** Detailed write-ups with GDB analysis, exploit development, methodology
+### 1. Binary Exploitation (Challenge Writeups)
+- Competitive + educational writeups focused on reasoning, validation, and clean methodology
+- Evidence: Detailed write-ups with GDB analysis, exploit development, methodology
 
 ### 2. Comprehensive Web Application Security
-- **60+ OWASP Top 10 Labs:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
+- **40+ OWASP-style writeups:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
 - **Advanced Techniques:** Filter bypass, WAF evasion, templating engine exploitation
 - **Evidence:** Step-by-step exploitation with mitigation strategies
 
@@ -28,8 +27,8 @@
 
 | Skill Category | Level | Key Evidence |
 |----------------|-------|--------------|
-| **Binary Exploitation** | Expert | Top 1.5% ranking, 158/158 pwn.college |
-| **Web App Security** | Advanced | 60+ OWASP labs, all Top 10 categories |
+| **Binary Exploitation** | Advanced | Challenge writeups + methodology (GDB/pwntools where applicable) |
+| **Web App Security** | Advanced | 40+ OWASP-style writeups, all Top 10 categories |
 | **Active Directory** | Intermediate | AD-RTS cert, attack chain methodology |
 | **Reverse Engineering** | Advanced | StackSmash challenges, GDB analysis |
 | **Tool Development** | Intermediate | ACLGuard (C), custom scripts |
@@ -67,7 +66,7 @@
 ## 🔗 Quick Links for Reviewers
 
 1. **Best Binary Exploitation:** `projects/binary-exploitation/stacksmash-showcase.md`
-2. **Best Web Security:** `labs/web-security/ssrf/advanced-ssrf-northstarstudio.md`
+2. **Best Web Security:** `writeups/web-security/ssrf/advanced-ssrf-northstarstudio.md`
 3. **Enterprise AD:** `projects/ad-exploitation/` (in development)
 4. **Custom Tool:** `https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor`
 5. **Certifications:** `assets/certificates/`
@@ -81,6 +80,6 @@
 5. "How do you stay current with offensive techniques?"
 
 ---
-*Portfolio last updated: January 10, 2026*  
-*Contact: [Your Email] | [Your LinkedIn]*  
-*Response time: <24 hours for interview requests*
+*Portfolio last updated: February 2026*  
+*Contact: Darrius.G@proton.me | https://www.linkedin.com/in/darrius-grate/*  
+*Response time: typically within 24 hours*
