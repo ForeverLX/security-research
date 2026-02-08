@@ -33,4 +33,6 @@ Exploit time-of-check-time-of-use (TOCTOU) vulnerability to apply discount multi
 
 ## Notes
 
-Conducted in controlled environment for educational purposes.
+## Notes
+
+Conducted in a controlled environment for educational purposes.

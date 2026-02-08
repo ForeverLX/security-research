@@ -39,7 +39,7 @@ h"o"st"na"me: String concatenation bypasses keyword detection
 
 Result: Successfully executed hostname, returning: mutuality
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Comprehensive Filtering: Implement multiple layers of input validation
 
 Command Whitelisting: Only allow specific, known-safe commands
@@ -48,7 +48,7 @@ Context-Aware Sanitization: Use security libraries specific to programming langu
 
 Regular Expression Auditing: Ensure regex patterns don't have bypass opportunities
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Filter Evasion: Developing techniques to bypass common security filters
 
 Character Encoding: Leveraging URL encoding for payload delivery
@@ -57,5 +57,7 @@ String Obfuscation: Using concatenation to evade keyword detection
 
 Defense Analysis: Understanding limitations of simple filtering approaches
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

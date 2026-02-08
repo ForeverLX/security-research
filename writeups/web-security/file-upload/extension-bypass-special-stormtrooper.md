@@ -33,4 +33,6 @@ Bypass file extension blacklist to upload and execute PHP code.
 
 ## Notes
 
-Conducted in controlled environment for educational purposes.
+## Notes
+
+Conducted in a controlled environment for educational purposes.

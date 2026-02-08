@@ -19,7 +19,7 @@ GET /search?search=canon-eos-rebel-t7 | hostname HTTP/1.1
 Host: living-ink.apac01.hackviser.space
 Result: Pipe character (|) allowed command chaining, executing hostname command and returning: brilliance
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Input Sanitization: Strictly validate and sanitize user input before command execution
 
 Parameterized Commands: Use parameterized approaches instead of string concatenation
@@ -37,5 +37,7 @@ Perl Security: Understanding Perl-specific command execution vulnerabilities
 
 Privilege Analysis: Assessing execution context and potential impact
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

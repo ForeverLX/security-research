@@ -31,7 +31,7 @@ ffuf -u "http://target/login.php" -X POST \
   -ac -t 20
 Result: Successfully identified password through statistical deviation analysis
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Differentiated Responses: Distinct responses for success vs. failure
 
 Account Lockout: Temporary lockout after failed attempts
@@ -42,7 +42,7 @@ Rate Limiting: Request throttling per IP address
 
 Strong Password Policies: Minimum complexity requirements
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Statistical Analysis: Using tools to detect subtle response differences
 
 Tool Mastery: Advanced ffuf features for difficult scenarios

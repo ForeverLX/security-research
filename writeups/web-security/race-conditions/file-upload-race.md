@@ -33,4 +33,6 @@ Exploit file upload race condition to execute malicious code before validation c
 
 ## Notes
 
-Conducted in controlled environment for educational purposes.
+## Notes
+
+Conducted in a controlled environment for educational purposes.

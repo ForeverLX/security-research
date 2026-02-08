@@ -30,7 +30,7 @@ sqlmap -u "https://target/" --data="search=iphone11" \
   --level=5 --risk=3 -p search --dbs
 Result: Successfully extracted database name: echo_store
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Parameterized Queries: Use prepared statements with bound parameters
 
 Input Validation: Strict whitelist validation for all user inputs
@@ -39,7 +39,7 @@ Error Handling: Generic error messages without database details
 
 Web Application Firewall: Implement WAF rules to detect SQLi patterns
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Blind Injection: Extracting data without direct output
 
 Boolean Logic: Crafting conditional payloads for information extraction

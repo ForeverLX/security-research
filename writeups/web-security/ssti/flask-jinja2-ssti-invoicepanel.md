@@ -22,7 +22,7 @@ Content-Type: application/x-www-form-urlencoded
 name={{ get_flashed_messages.__globals__.__builtins__.open('/home/secret.txt').read() }}
 Result: Successfully read /home/secret.txt contents through template engine code execution.
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Input Sanitization: Validate and sanitize all user inputs before template rendering
 
 Sandboxing: Use Jinja2 sandboxed environments for untrusted templates
@@ -31,7 +31,7 @@ Whitelisting: Implement allowed character/filter whitelists
 
 Context Awareness: Use appropriate template contexts ({{ }} vs {% %})
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 SSTI Detection: Identifying template injection points in web applications
 
 Python Object Traversal: Navigating class hierarchies in template engines
@@ -40,5 +40,7 @@ Payload Crafting: Developing SSTI payloads for file disclosure
 
 Impact Assessment: Understanding server-side code execution implications
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

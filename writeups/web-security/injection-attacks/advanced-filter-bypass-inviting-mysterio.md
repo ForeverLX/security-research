@@ -46,7 +46,7 @@ Content-Type: application/x-www-form-urlencoded
 query=google.com%0Ah"o"st"na"me
 Result: Successfully executed hostname, returning mutuality
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Input Validation: Whitelist-based validation instead of blacklisting
 
 Parameterized Commands: Use subprocess with argument arrays
@@ -55,7 +55,7 @@ Context-Aware Sanitization: Language-specific secure coding practices
 
 Regular Expression Auditing: Comprehensive testing of filter patterns
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Filter Evasion: Multi-technique approach to bypass security controls
 
 Character Encoding: Leveraging URL encoding for payload delivery
@@ -64,5 +64,7 @@ String Obfuscation: Using concatenation to evade keyword detection
 
 Defense Analysis: Understanding limitations of simple filtering approaches
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

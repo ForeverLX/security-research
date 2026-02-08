@@ -29,7 +29,7 @@ Extract database information by triggering and analyzing SQL error messages.
   Result: Successfully extracted database information
   ```
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Error Handling: Generic error messages without database details
 
 Input Validation: Parameterized queries and strict type checking
@@ -38,7 +38,7 @@ Security Headers: Prevent information disclosure through proper HTTP configurati
 
 Regular Testing: Continuous vulnerability assessment
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Error Analysis: Interpreting SQL error messages for information extraction
 
 Tool Proficiency: Adapting sqlmap usage based on application behavior

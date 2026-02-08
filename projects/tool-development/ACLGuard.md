@@ -32,6 +32,7 @@ Choosing C over PowerShell or Python offers key advantages for an AD auditing to
 ## 📟 Example Usage & Output
 
 ```bash
+
 # Basic enumeration of a user object's ACLs
 aclguard.exe --domain TELECORE.AD --user standarduser --pass Passw0rd! --target-user "Domain Admin"
 

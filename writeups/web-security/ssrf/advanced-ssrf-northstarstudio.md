@@ -27,7 +27,7 @@ GET /proxy.php?url=http://127.0.0.1:9090/ HTTP/1.1
 Host: northstarstudio.hv
 Result: Accessed internal service on port 9090, revealing hidden word: TheStarryNight
 
-🛡️ Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Network-Level Controls: Implement firewall rules to block internal network access
 
 URL Parsing: Use proper URL parsers and validate against SSRF bypass techniques
@@ -36,7 +36,7 @@ Response Validation: Analyze and filter responses from internal resources
 
 Authentication Enforcement: Require authentication for proxy functionality
 
-📊 Skills Demonstrated
+## 📊 Skills Demonstrated
 Multi-Vector Exploitation: Combining file and HTTP protocol SSRF attacks
 
 Internal Network Mapping: Identifying and accessing hidden internal services
@@ -45,5 +45,7 @@ Impact Chaining: Connecting multiple SSRF vectors for comprehensive access
 
 Protocol Analysis: Understanding different URL scheme behaviors in SSRF contexts
 
-Conducted in controlled environment for educational purposes
+## Notes
+
+Conducted in a controlled environment for educational purposes.
 ```

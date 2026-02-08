@@ -21,6 +21,5 @@ This section documents hands-on, authorized web exploitation work with a focus o
 - **XXE** → `./xxe/`
 
 ## Notes
-
 - All targets are lab environments or explicitly authorized scenarios.
 - Sensitive values (tokens, creds, real IPs) are sanitized.

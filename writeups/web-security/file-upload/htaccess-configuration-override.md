@@ -32,4 +32,6 @@ Bypass comprehensive file upload restrictions by overriding server configuration
 
 ## Notes
 
-Conducted in controlled environment for educational purposes.
+## Notes
+
+Conducted in a controlled environment for educational purposes.
