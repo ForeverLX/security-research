@@ -6,11 +6,15 @@ Everything here is performed in authorized environments and written with a repor
 ## Quick Navigation
 
 - **Web Security** → `./web-security/`
+
 - **Binary Exploitation** → `./binary-exploitation/`
+
 - **Penetration Testing Scenarios** → `./penetration-testing/`
+
 - **Reverse Engineering** → `./reverse-engineering/`
 
 ## How to Read These
 
 - If you’re skimming: open each category README and pick 1–2 writeups that match the role.
+
 - If you’re technical: focus on methodology, validation steps, and consistency of execution.

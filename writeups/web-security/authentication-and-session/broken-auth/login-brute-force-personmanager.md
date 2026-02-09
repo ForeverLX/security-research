@@ -7,8 +7,11 @@ Brute force login credentials when all authentication responses appear identical
 ## 🔍 Vulnerability Analysis
 
 - **Type**: Broken Authentication
+
 - **Target**: Login form with identical success/failure responses
+
 - **Flaw**: No distinguishing characteristics between valid and invalid attempts
+
 - **Challenge**: Standard filtering techniques impossible due to identical responses
 
 ## 💥 Exploitation
@@ -16,7 +19,9 @@ Brute force login credentials when all authentication responses appear identical
 **Problem**: All login attempts returned:
 
 - HTTP 302 status code
+
 - Zero content length
+
 - Redirect to login.php
 
 **Solution**: Auto-calibration with statistical analysis
@@ -24,6 +29,7 @@ Brute force login credentials when all authentication responses appear identical
 **Command**:
 
 ```bash
+
 ffuf -u "http://target/login.php" -X POST \
   -d "username=admin&password=FUZZ" \
   -w password_wordlist.txt \
@@ -52,4 +58,5 @@ Persistence: Working through challenging brute force scenarios
 Analysis Skills: Understanding why traditional methods failed
 
 Conducted in controlled environment for educational purposes. All sensitive information (IPs, credentials, session tokens) has been sanitized for security.
+
 ```

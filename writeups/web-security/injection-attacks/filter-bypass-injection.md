@@ -7,9 +7,13 @@ Bypass input filters to exploit command injection vulnerability, demonstrating a
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Command Injection with Input Filtering
+
 - **Endpoint:** POST request handler
+
 - **Parameter:** `query`
+
 - **Detection:** Basic filtering attempts but insufficient validation
+
 - **Impact:** Filter bypass leading to remote code execution
 
 ## 💥 Exploitation
@@ -17,6 +21,7 @@ Bypass input filters to exploit command injection vulnerability, demonstrating a
 ### Initial Detection
 
 ```http
+
 POST /query HTTP/1.1
 Host: inviting-mysterio.apac01.hackviser.space
 Content-Type: application/x-www-form-urlencoded
@@ -60,4 +65,5 @@ Defense Analysis: Understanding limitations of simple filtering approaches
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

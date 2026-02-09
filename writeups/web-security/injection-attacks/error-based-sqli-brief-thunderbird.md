@@ -7,8 +7,11 @@ Extract database information by triggering and analyzing SQL error messages.
 ## 🔍 Vulnerability Analysis
 
 - **Type**: Error-Based SQL Injection
+
 - **Target**: Web application with an `img` parameter vulnerable to SQL injection
+
 - **Flaw**: Improper error handling revealing database information
+
 - **Impact**: Database structure disclosure and information extraction
 
 ## 💥 Exploitation
@@ -16,12 +19,15 @@ Extract database information by triggering and analyzing SQL error messages.
 ### Initial Challenge
 
 - **First Attempt**: Direct error-based technique failed due to HTTP redirect
+
 - **Issue**: 302 redirect prevented immediate error reflection
 
 ### Solution
 
 - **Target Identification**: Final redirected URL containing vulnerable parameter
+
 - **Tool Usage**: sqlmap without technique restriction for automatic detection
+
 - **Command**:
 
   ```bash

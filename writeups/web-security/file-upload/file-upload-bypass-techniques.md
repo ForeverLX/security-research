@@ -7,8 +7,11 @@ Demonstrate multiple file upload bypass techniques to execute malicious code des
 ## 🔍 Common Upload Vulnerabilities
 
 - **File Type Validation:** Incomplete MIME/extension checking
+
 - **Content Validation:** Insufficient file content analysis
+
 - **Path Traversal:** Directory traversal in upload paths
+
 - **Blacklist Inefficiency:** Incomplete or bypassable blacklists
 
 ## 💥 Exploitation Techniques
@@ -73,4 +76,5 @@ Defense Layering: Analyzing cumulative security control effectiveness
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

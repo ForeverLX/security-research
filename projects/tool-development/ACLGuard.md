@@ -11,7 +11,9 @@ Analyzing Active Directory Access Control Lists (ACLs) for dangerous permissions
 ACLGuard is a purpose-built tool written in C that directly queries Active Directory to:
 
 1. **Enumerate ACLs** on domain objects (users, groups, OUs, computers).
+
 2. **Analyze permissions** for known dangerous rights (e.g., `GenericAll`, `WriteOwner`, `ForceChangePassword`).
+
 3. **Identify attack paths** by linking permissions between objects, highlighting how a compromised low-privileged account could reach high-value targets.
 
 ## 🏗️ Architecture & Design Choices
@@ -19,14 +21,19 @@ ACLGuard is a purpose-built tool written in C that directly queries Active Direc
 Choosing C over PowerShell or Python offers key advantages for an AD auditing tool:
 
 - **Performance:** Native Windows API calls (`Active Directory Service Interfaces - ADSI`) allow efficient enumeration of large directories.
+
 - **Stealth & Deployment:** A standalone executable has minimal dependencies and can run in constrained environments where scripting is restricted.
+
 - **Learning Depth:** Implementing LDAP queries and security descriptor parsing in C provides deep understanding of both Windows security and AD internals.
 
 ### Core Components
 
 1. **LDAP Connection Handler:** Authenticates to the domain and executes queries.
+
 2. **Security Descriptor Parser:** Decodes raw `ntSecurityDescriptor` attributes.
+
 3. **ACE (Access Control Entry) Analyzer:** Interprets permission bits against a known-dangerous rights list.
+
 4. **Path Mapping Logic:** Builds graph-like relationships between objects based on permissions.
 
 ## 📟 Example Usage & Output
@@ -84,4 +91,5 @@ The complete source code, build instructions, and issue tracker are available on
 github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor
 
 Feedback and contributions are welcome. This is an active research project.
+
 ```

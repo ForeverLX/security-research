@@ -7,9 +7,13 @@ Bypass comprehensive input filters to exploit a command injection vulnerability 
 ## 🔍 Vulnerability Analysis
 
 - **Type**: Command Injection with multi-layered filtering
+
 - **Target**: `https://inviting-mysterio.apac01.hackviser.space`
+
 - **Parameter**: `query` (POST request)
+
 - **Filter Mechanism**: Blacklist of common command names and operators
+
 - **Impact**: Remote code execution with web server privileges
 
 ## 💥 Exploitation Process
@@ -17,6 +21,7 @@ Bypass comprehensive input filters to exploit a command injection vulnerability 
 ### Initial Reconnaissance
 
 ```http
+
 POST / HTTP/1.1
 Host: inviting-mysterio.apac01.hackviser.space
 Content-Type: application/x-www-form-urlencoded
@@ -67,4 +72,5 @@ Defense Analysis: Understanding limitations of simple filtering approaches
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

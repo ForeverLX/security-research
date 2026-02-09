@@ -7,8 +7,11 @@ Demonstrate multiple techniques to bypass file upload security controls and achi
 ## 🔍 Common Security Controls Analyzed
 
 1. **File Signature Validation**: Magic byte checking
+
 2. **Extension Filtering**: Blacklist/whitelist approaches
+
 3. **MIME Type Verification**: Client vs server validation
+
 4. **Content Scanning**: Malware detection mechanisms
 
 ## 💥 Bypass Techniques Demonstrated
@@ -78,4 +81,5 @@ Defense-in-Depth Analysis: Evaluating cumulative security control effectiveness
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

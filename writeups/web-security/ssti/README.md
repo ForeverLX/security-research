@@ -3,8 +3,11 @@
 ## 📊 Skills Validated
 
 - **Template Engine Identification**: Flask/Jinja2, Twig, Smarty detection
+
 - **Context-Aware Payload Development**: Crafting engine-specific exploits
+
 - **Object Chain Traversal**: Navigating Python/Ruby/PHP class hierarchies
+
 - **Impact Assessment**: File read, RCE, credential disclosure
 
 ## 🔬 Completed SSTI Challenges
@@ -26,8 +29,11 @@
 ## 🛡️ Defense Strategies Mastered
 
 1. **Input Sanitization**: Context-aware escaping for template variables
+
 2. **Sandbox Configuration**: Restricting template engine capabilities
+
 3. **Allow-Listing**: Permitting only safe template functions/filters
+
 4. **Content Security Policy**: Limiting script execution contexts
 
 ## 📈 Real-World Application
@@ -35,7 +41,9 @@
 These skills directly translate to:
 
 - **Bug Bounty Hunting**: Identifying SSTI in modern web frameworks
+
 - **Penetration Testing**: Template injection in CI/CD pipelines, admin panels
+
 - **Code Review**: Auditing template usage in Django, Flask, Express applications
 
 _All exercises conducted in controlled, authorized environments._

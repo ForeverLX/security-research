@@ -1,8 +1,8 @@
 # Darrius Grate | Offensive Security Portfolio
 
-**Location:** Las Vegas, NV  
-**Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer  
-**Portfolio:** <https://github.com/ForeverLX/security-portfolio>  
+**Location:** Las Vegas, NV
+**Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer
+**Portfolio:** <https://github.com/ForeverLX/security-portfolio>
 
 ---
 
@@ -11,7 +11,9 @@
 ### For Hiring Managers (2-Minute Review)
 
 1. **AD-RTS Certification** → [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
+
 2. **Binary Exploitation Writeups** → [Challenge writeups](#binary-exploitation-challenge-writeups)
+
 3. **Professional Methodology** → [📋 Enterprise AD Attack Chain](#enterprise-ad-attack-chain)
 
 ### For Technical Interviewers (5-Minute Review)
@@ -23,8 +25,11 @@
 ### For Recruiters (30-Second Review)
 
 - ** Contact:** <Darrius.G@proton.me>
+
 - ** Location:** Las Vegas, NV (Open to Remote)
+
 - ** Availability:** Immediate
+
 - ** Target:** Red Team / Vulnerability Research Roles
 
 ---
@@ -34,34 +39,47 @@
 ### Binary Exploitation (Challenge Writeups)
 
 - **Technical Depth:** Memory corruption, ROP chains, exploit development with GDB/pwntools
+
 - **Evidence:** [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
 
 ### Enterprise AD Attack Chain
 
 - **Certification:** Active Directory Red Team Specialist (AD-RTS) - November 2025
+
 - **Scope:** Full domain compromise from initial access to persistence
+
 - **Methodology:** Reconnaissance → Lateral Movement → Privilege Escalation → Domain Admin
+
 - **Verification:** [📜 Official Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
 
 ### Web Application Security
 
 - **Scope:** 40+ OWASP-style writeups completed (December 2025 - February 2026)
+
 - **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
+
 - **Documentation:** Detailed write-ups with exploitation steps and mitigation strategies
+
 - **Evidence:** [`writeups/web-security/`](writeups/web-security/)
 
 ### Security Tool Development
 
 - **ACLGuard:** Custom C-based Active Directory permission auditor
+
 - **Purpose:** Identify risky ACLs and privilege escalation paths in AD environments
+
 - **Technology:** C programming, LDAP queries, CSV/JSON output formats
+
 - **Repository:** [github.com/ForeverLX/ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
 
 ### Professional Methodology
 
 - **Controlled Environment:** All testing in authorized lab environments
+
 - **Documentation:** Step-by-step methodology with commands and outputs
+
 - **Reporting:** Business impact analysis and mitigation recommendations
+
 - **Ethics:** Strong emphasis on responsible disclosure and authorized testing
 
 ---
@@ -69,6 +87,7 @@
 ## PORTFOLIO STRUCTURE
 
 ```text
+
 security-portfolio/
 ├── HIRING.md # One-page summary for recruiters
 ├── projects/ # Deep-dive technical projects
@@ -80,6 +99,7 @@ security-portfolio/
 │   ├── penetration-testing/ # Real-world scenarios
 │   └── reverse-engineering/ # Binary analysis challenges
 └── assets/certificates/ # Professional certifications
+
 ```
 
 ---
@@ -115,17 +135,25 @@ My background in physical security provides a holistic understanding of organiza
 Offensive workflows demand:
 
 - Low attack surface
+
 - High reliability and responsiveness
+
 - Explicit control over service stacks
+
 - Keyboard-centric operator workflows
+
 - Repeatable, auditable configurations
 
 **Core Stack:**
 
 - Arch Linux (minimal base)
+
 - Sway (Wayland)
+
 - Terminals: Ghostty (primary), Warp (evaluated)
+
 - Browser: Thorium with Wayland flags
+
 - Compatibility via XWayland
 
 ---
@@ -143,6 +171,7 @@ _Rationale:_ Explicit session control, reduce background processes.
 ### Terminal Selection
 
 - Ghostty (stable, minimal)
+
 - Warp evaluated; usable but not primary due to integration complexity
 
 ### Audio Omission as Intentional Design Choice
@@ -154,7 +183,9 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 ## Troubleshooting & Lessons Learned
 
 - CPU power management tuning before stability caused boot issues — _stability first_.
+
 - Custom PipeWire configs regressed audio state — _baseline resets matter_.
+
 - Applications expecting X11 require XWayland — _compatibility layer provisioned explicitly_.
 
 ---
@@ -162,9 +193,13 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 ## Current Status
 
 - Stable Sway workstation environment
+
 - Minimal services and attack surface
+
 - Explicit session management via TTY
+
 - Audio functioning on clean baseline (reboot enforced)
+
 - Tooling integrated for offensive workflows
 
 ---
@@ -185,13 +220,17 @@ Audio stacks add complexity with minimal operational benefit in offensive workfl
 **Ready for Technical Interviews:**
 
 - Available for technical challenges and live assessments
+
 - Prepared for deep-dive discussions on any portfolio item
+
 - Can provide additional materials upon request
 
 **Connect With Me:**
 
 - **Email:** [Darrius.G@proton.me](mailto:Darrius.G@proton.me)
+
 - **LinkedIn:** [Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
+
 - **GitHub:** [github.com/ForeverLX](https://github.com/ForeverLX)
 
 **Portfolio Last Updated:** February 2026

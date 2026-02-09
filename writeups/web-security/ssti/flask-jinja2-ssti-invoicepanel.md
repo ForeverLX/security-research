@@ -7,14 +7,19 @@ Exploit a Server-Side Template Injection (SSTI) vulnerability in a Flask applica
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Server-Side Template Injection (SSTI)
+
 - **Endpoint:** `POST /create_invoice`
+
 - **Parameter:** `name`
+
 - **Detection:** User input directly rendered in Jinja2 template context without sanitization
+
 - **Impact:** Arbitrary code execution leading to file disclosure
 
 ## 💥 Exploitation
 
 ```http
+
 POST /create_invoice HTTP/1.1
 Host: invoicepanel.hv
 Content-Type: application/x-www-form-urlencoded
@@ -43,4 +48,5 @@ Impact Assessment: Understanding server-side code execution implications
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

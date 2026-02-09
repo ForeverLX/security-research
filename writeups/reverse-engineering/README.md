@@ -5,7 +5,9 @@ This section is for educational, report-quality reverse engineering notes and wr
 ## Focus
 
 - Static + dynamic analysis workflow (strings, disassembly, debugging)
+
 - Clear hypotheses → validation steps → conclusions
+
 - Repeatable methodology and clean artifacts
 
 ## Status

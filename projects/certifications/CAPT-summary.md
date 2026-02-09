@@ -7,7 +7,9 @@
 ### 🎯 Methodology Demonstrated
 
 1. **Systematic Approach**: Daily lab completions showing consistent skill development
+
 2. **Scenario Diversity**: From SQL injection to business logic flaws
+
 3. **Real-World Application**: Each lab modeled after actual vulnerabilities
 
 ### 🔍 Sample Lab Categories
@@ -25,8 +27,11 @@
 ### 📈 What This Volume Demonstrates
 
 - **Consistency**: Daily commitment to skill development
+
 - **Breadth**: Exposure to diverse vulnerability classes
+
 - **Practicality**: Hands-on versus theoretical knowledge
+
 - **Persistence**: Completing complex multi-step labs
 
 ### 🖼️ Visual Proof
@@ -37,7 +42,9 @@ _Grid showing systematic lab completion across many scenarios_
 ### 🎖️ Certification Verification
 
 - **Issuer**: Hackviser
+
 - **Date Earned**: December 2025
+
 - **Verification Code**: [If available]
 
 ---
