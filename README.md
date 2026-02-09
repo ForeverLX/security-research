@@ -3,6 +3,7 @@
 **Location:** Las Vegas, NV
 **Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer
 **Portfolio:** <https://github.com/ForeverLX/security-portfolio>
+**Personal Site:** [Personal Site](https://darriusgrate.vercel.app)
 
 ---
 
@@ -35,6 +36,10 @@
 ---
 
 ## PORTFOLIO HIGHLIGHTS
+
+![Personal Site Preview](assets/screenshots/personal-site-homepage.png)
+*Personal site snapshot (live experience + interactive terminal)*
+
 
 ### Binary Exploitation (Challenge Writeups)
 
