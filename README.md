@@ -18,9 +18,9 @@
 
 ### For Technical Interviewers (5-Minute Review)
 
-1.**Binary Exploitation Showcase** → [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
-2.**Web Security Mastery** → [40+ OWASP-style writeups](#web-application-security)
-3.**ToolDevelopment** → [🛠️ ACLGuard - AD Permission Auditor](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
+1. **Binary Exploitation Showcase** → [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
+2. **Web Security Mastery** → [25+ OWASP-style writeups](#web-application-security)
+3. **Tool Development** → [🛠️ ACLGuard - AD Permission Auditor](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
 
 ### For Recruiters (30-Second Review)
 
@@ -54,7 +54,7 @@
 
 ### Web Application Security
 
-- **Scope:** 40+ OWASP-style writeups completed (December 2025 - February 2026)
+- **Scope:** 25+ OWASP-style writeups completed (December 2025 - February 2026)
 
 - **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
 
@@ -93,8 +93,8 @@ security-portfolio/
 ├── projects/ # Deep-dive technical projects
 │   ├── binary-exploitation/ # StackSmash + pwn.college showcase
 │   ├── ad-exploitation/ # Enterprise AD attack chain (in development)
-│   └── tool-development/ # ACLGuard integration (planned)
-├── writeups/ # 40+ hands-on writeups
+│   └── tool-development/ # ACLGuard integration (in progress)
+├── writeups/ # 35+ hands-on writeups
 │   ├── web-security/ # OWASP Top 10 vulnerability types
 │   ├── penetration-testing/ # Real-world scenarios
 │   └── reverse-engineering/ # Binary analysis challenges
@@ -109,7 +109,7 @@ security-portfolio/
 | Category                     | Skill                                           | Evidence                                         |
 | ---------------------------- | ----------------------------------------------- | ------------------------------------------------ |
 | **Binary Exploitation**      | x86_64 assembly, memory corruption, ROP chains  | StackSmash ranking, pwn.college completion       |
-| **Web Application Security** | OWASP Top 10, advanced filter bypass            | 40+ OWASP-style writeups with exploitation steps |
+| **Web Application Security** | OWASP Top 10, advanced filter bypass            | 25+ OWASP-style writeups with exploitation steps |
 | **Active Directory**         | Kerberos attacks, lateral movement, persistence | AD-RTS certification, attack chain methodology   |
 | **Reverse Engineering**      | GDB analysis, binary analysis, debugging        | StackSmash challenges, Hackviser labs            |
 | **Tool Development**         | C programming, security tool architecture       | ACLGuard repository with source code             |

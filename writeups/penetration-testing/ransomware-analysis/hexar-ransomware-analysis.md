@@ -34,7 +34,7 @@ Conduct a proactive investigation into a ransomware attack by infiltrating the a
 
 - **Secondary Tool:** Tiny File Manager at `/d3a8f4966_admin/filemanager/`.
 
-- **Access:** Default credentials (`admin` / `admin@123`).
+- **Access:** Default credentials (`admin` / `[REDACTED]`).
 
 - **Intel Recovered:** `targets.txt` containing victim list and final flags.
 

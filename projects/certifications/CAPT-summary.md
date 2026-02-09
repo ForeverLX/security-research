@@ -36,8 +36,8 @@
 
 ### 🖼️ Visual Proof
 
-![Lab Completions Grid](../../assets/certificates/CAPT/summaries/all-labs-grid.jpg)
-_Grid showing systematic lab completion across many scenarios_
+![CAPT Certificate](../../assets/certificates/CAPT-Certificate.png)
+_Certification evidence (CAPT)_
 
 ### 🎖️ Certification Verification
 

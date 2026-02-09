@@ -17,7 +17,7 @@
 
 ### 2. Comprehensive Web Application Security
 
-- **40+ OWASP-style writeups:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
+- **25+ OWASP-style writeups:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions
 
 - **Advanced Techniques:** Filter bypass, WAF evasion, templating engine exploitation
 
@@ -36,7 +36,7 @@
 | Skill Category          | Level        | Key Evidence                                                     |
 | ----------------------- | ------------ | ---------------------------------------------------------------- |
 | **Binary Exploitation** | Advanced     | Challenge writeups + methodology (GDB/pwntools where applicable) |
-| **Web App Security**    | Advanced     | 40+ OWASP-style writeups, all Top 10 categories                  |
+| **Web App Security**    | Advanced     | 25+ OWASP-style writeups, all Top 10 categories                  |
 | **Active Directory**    | Intermediate | AD-RTS cert, attack chain methodology                            |
 | **Reverse Engineering** | Advanced     | StackSmash challenges, GDB analysis                              |
 | **Tool Development**    | Intermediate | ACLGuard (C), custom scripts                                     |
@@ -84,15 +84,15 @@
 
 ## 🔗 Quick Links for Reviewers
 
-1. **Best Binary Exploitation:** `projects/binary-exploitation/stacksmash-showcase.md`
+1. **Best Binary Exploitation:** [StackSmash Showcase](projects/binary-exploitation/stacksmash-showcase.md)
 
-2. **Best Web Security:** `writeups/web-security/ssrf/advanced-ssrf-northstarstudio.md`
+2. **Best Web Security:** [Advanced SSRF](writeups/web-security/ssrf/advanced-ssrf-northstarstudio.md)
 
-3. **Enterprise AD:** `projects/ad-exploitation/` (in development)
+3. **Enterprise AD:** [Attack Chain](projects/ad-exploitation/) (in development)
 
-4. **Custom Tool:** `https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor`
+4. **Custom Tool:** [ACLGuard Repository](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
 
-5. **Certifications:** `assets/certificates/`
+5. **Certifications:** [Assets](assets/certificates/)
 
 ## ❓ Questions I'm Prepared to Answer
 
