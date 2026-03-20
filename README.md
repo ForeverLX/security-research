@@ -1,245 +1,164 @@
-# Darrius Grate | Offensive Security Portfolio
+# security-research
 
-**Location:** Las Vegas, NV
-**Target Role:** Red Team Operator / Vulnerability Researcher / Offensive Security Engineer
-**Portfolio:** <https://github.com/ForeverLX/security-portfolio>
-**Personal Site:** [Personal Site](https://darriusgrate.vercel.app)
+**Azrael Security — Offensive Security Research**
 
----
+Published by [ForeverLX](https://github.com/ForeverLX) | Azrael Security™
 
-## QUICK NAVIGATION - Start Here
-
-### For Hiring Managers (2-Minute Review)
-
-1. **AD-RTS Certification** → [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
-
-2. **Binary Exploitation Writeups** → [Challenge writeups](#binary-exploitation-challenge-writeups)
-
-3. **Professional Methodology** → [📋 Enterprise AD Attack Chain](#enterprise-ad-attack-chain)
-
-### For Technical Interviewers (5-Minute Review)
-
-1. **Binary Exploitation Showcase** → [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
-2. **Web Security Mastery** → [25+ OWASP-style writeups](#web-application-security)
-3. **Tool Development** → [🛠️ ACLGuard - AD Permission Auditor](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
-
-### For Recruiters (30-Second Review)
-
-- ** Contact:** <Darrius.G@proton.me>
-
-- ** Location:** Las Vegas, NV (Open to Remote)
-
-- ** Availability:** Immediate
-
-- ** Target:** Red Team / Vulnerability Research Roles
+> This repository documents original security research, adversary emulation technique development, and infrastructure-focused vulnerability analysis produced by Azrael Security. Work is conducted on authorized, self-operated infrastructure. All findings are mapped to MITRE ATT&CK where applicable.
 
 ---
 
-## PORTFOLIO HIGHLIGHTS
+## Research Areas
 
-![Personal Site Preview](assets/screenshots/personal-site-homepage.png)
-*Personal site snapshot (live experience + interactive terminal)*
+### 1. Container Boundary Research
+*Status: Active*
 
+Investigating Linux container isolation boundaries as they apply to real offensive infrastructure. Focus areas:
 
-### Binary Exploitation (Challenge Writeups)
+- **Filesystem and mount abuse** — overlayfs behavior, bind mount escapes, volume permission misconfigurations in rootless Podman and Docker contexts
+- **Namespace privilege boundaries** — user namespace privilege mapping, PID/mount namespace isolation failures, capability leakage across namespace transitions
+- **Process visibility leaks** — `/proc` exposure from within containers, cross-container PID visibility under different namespace configurations
+- **Infrastructure applicability** — how these primitives map to real red team infrastructure (C2 isolation, agent staging environments, container-based implant delivery)
 
-- **Technical Depth:** Memory corruption, ROP chains, exploit development with GDB/pwntools
+Research platform: Cerberus (Podman rootless, Arch Linux) and Tairn (Docker, NixOS 24.11) — live infrastructure, not synthetic lab VMs.
 
-- **Evidence:** [`projects/binary-exploitation/stacksmash-showcase.md`](projects/binary-exploitation/stacksmash-showcase.md)
+### 2. Linux Kernel & Systems Research
+*Status: Early stage — building toward*
 
-### Enterprise AD Attack Chain
+Low-level Linux systems research with a long-term focus on kernel exploitation primitives. Current entry point is container boundary analysis (userspace/kernel interface). Planned progression:
 
-- **Certification:** Active Directory Red Team Specialist (AD-RTS) - November 2025
+- **Syscall boundary analysis** — userspace → kernel transitions, where validation occurs and where it doesn't
+- **Privilege escalation primitives** — capability abuse, namespace escape, SUID/SGID misuse
+- **Kernel exploitation foundations** — memory corruption in kernel context, ret2usr, kernel ROP (long-term track)
+- **CVE analysis** — dissecting published kernel CVEs to understand root cause and exploitation mechanics
 
-- **Scope:** Full domain compromise from initial access to persistence
+Research platform: NightForge (Arch Linux, zen kernel).
 
-- **Methodology:** Reconnaissance → Lateral Movement → Privilege Escalation → Domain Admin
+### 3. Reverse Engineering
+*Status: Active — ongoing challenge series*
 
-- **Verification:** [📜 Official Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2)
+Documented RE methodology development through progressive challenge work, building toward application to real binaries and CVE analysis.
 
-### Web Application Security
+- **re-1** — ELF 32-bit, byte-wise comparison loop, static + GDB analysis
+- **re-2** — ELF 64-bit stripped, hex decoding pipeline, XOR-based custom comparison logic
+- *Ongoing: additional StackSmash RE challenges as completed*
 
-- **Scope:** 25+ OWASP-style writeups completed (December 2025 - February 2026)
+### 4. Active Directory Attack Paths
+*Status: Ongoing (course-integrated)*
 
-- **Coverage:** SQLi, XSS, SSRF, SSTI, XXE, CSRF, IDOR, Race Conditions, File Upload
+Technique documentation from CRTA and CRT-ID coursework (CyberWarfare Labs), integrated with hands-on lab work on Tairn. Every technique documented with:
+- Mechanical explanation of what is actually happening at the protocol/system level
+- MITRE ATT&CK mapping
+- Detection considerations
+- Tool invocation and output
 
-- **Documentation:** Detailed write-ups with exploitation steps and mitigation strategies
+### 5. Red Team Infrastructure Research
+*Status: Ongoing*
 
-- **Evidence:** [`writeups/web-security/`](writeups/web-security/)
-
-### Security Tool Development
-
-- **ACLGuard:** Custom C-based Active Directory permission auditor
-
-- **Purpose:** Identify risky ACLs and privilege escalation paths in AD environments
-
-- **Technology:** C programming, LDAP queries, CSV/JSON output formats
-
-- **Repository:** [github.com/ForeverLX/ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
-
-### Professional Methodology
-
-- **Controlled Environment:** All testing in authorized lab environments
-
-- **Documentation:** Step-by-step methodology with commands and outputs
-
-- **Reporting:** Business impact analysis and mitigation recommendations
-
-- **Ethics:** Strong emphasis on responsible disclosure and authorized testing
+Operational security and architecture research applied to the Veil infrastructure project:
+- WireGuard mesh architecture for multi-node C2 environments
+- Mythic C2 deployment hardening (network isolation, firewall posture)
+- Declarative NixOS for reproducible attack nodes
+- Rootless container patterns for operational security
 
 ---
 
-## PORTFOLIO STRUCTURE
+## Active Research — Container Boundary Analysis
 
-```text
+*This section will be populated as the research progresses. Structure is established in advance to hold the work.*
 
-security-portfolio/
-├── HIRING.md # One-page summary for recruiters
-├── projects/ # Deep-dive technical projects
-│   ├── binary-exploitation/ # StackSmash + pwn.college showcase
-│   ├── ad-exploitation/ # Enterprise AD attack chain (in development)
-│   └── tool-development/ # ACLGuard integration (in progress)
-├── writeups/ # 35+ hands-on writeups
-│   ├── web-security/ # OWASP Top 10 vulnerability types
-│   ├── penetration-testing/ # Real-world scenarios
-│   └── reverse-engineering/ # Binary analysis challenges
-└── assets/certificates/ # Professional certifications
+```
+research/container-boundaries/
+├── README.md               # Research overview and methodology
+├── 01-environment-setup/   # Lab setup, tooling, baseline measurements
+├── 02-filesystem-mounts/   # Findings: overlayfs, bind mounts, volume abuse
+├── 03-namespace-analysis/  # Findings: user/pid/mount namespace boundaries
+├── 04-proc-visibility/     # Findings: /proc exposure and PID leaks
+├── 05-infrastructure-impact/ # How findings map to offensive infra use cases
+└── report/                 # Final research artifact (MITRE-mapped)
+```
 
+**Research methodology:**
+1. Establish baseline: document expected isolation behavior per container runtime
+2. Identify boundary: find the exact syscall, kernel feature, or configuration that enforces the control
+3. Test deviation: construct minimal reproduction case that demonstrates the boundary condition
+4. Map impact: connect finding to a real offensive or defensive use case
+5. Document: write-up suitable for technical audience (not a CTF walkthrough)
+
+---
+
+## Technique Library
+
+Documented techniques from lab work and course progression. Each entry includes mechanical explanation, reproduction steps, and ATT&CK mapping.
+
+*Actively populating as course work progresses on Tairn.*
+
+| Technique | ATT&CK ID | Platform | Status |
+|---|---|---|---|
+| Kerberoasting | T1558.003 | Windows AD | Documented |
+| AS-REP Roasting | T1558.004 | Windows AD | Documented |
+| DCSync | T1003.006 | Windows AD | Documented |
+| Golden Ticket | T1558.001 | Windows AD | Documented |
+| Domain Account Enumeration | T1087.002 | Windows AD | Documented |
+| RE: ELF 32-bit byte-wise validation | — | Linux | Complete — `techniques/linux/re/re-1` |
+| RE: ELF 64-bit stripped, XOR comparison | — | Linux | Complete — `techniques/linux/re/re-2` |
+| *Container escape via mount* | *TBD* | Linux | In progress |
+| *Namespace boundary abuse* | *TBD* | Linux | In progress |
+| *Kernel privilege escalation primitives* | *TBD* | Linux | Planned |
+
+---
+
+## Repository Structure
+
+```
+security-research/
+├── README.md
+├── research/
+│   ├── container-boundaries/   # Active flagship research
+│   ├── kernel/                 # Linux kernel & systems research
+│   ├── active-directory/       # AD technique documentation
+│   └── infrastructure/         # Red team infra research notes
+├── techniques/
+│   ├── ad/                     # Per-technique writeups (AD)
+│   └── linux/
+│       ├── re/                 # Reverse engineering writeups
+│       │   ├── re-1/
+│       │   └── re-2/
+│       └── kernel/             # Kernel exploitation technique notes
+├── labs/
+│   └── tairn/                  # Lab work documented from Tairn
+└── assets/
+    └── certificates/           # Certifications (AD-RTS, CAPT, COSJ)
 ```
 
 ---
 
-## SKILLS MATRIX
+## Infrastructure
 
-| Category                     | Skill                                           | Evidence                                         |
-| ---------------------------- | ----------------------------------------------- | ------------------------------------------------ |
-| **Binary Exploitation**      | x86_64 assembly, memory corruption, ROP chains  | StackSmash ranking, pwn.college completion       |
-| **Web Application Security** | OWASP Top 10, advanced filter bypass            | 25+ OWASP-style writeups with exploitation steps |
-| **Active Directory**         | Kerberos attacks, lateral movement, persistence | AD-RTS certification, attack chain methodology   |
-| **Reverse Engineering**      | GDB analysis, binary analysis, debugging        | StackSmash challenges, Hackviser labs            |
-| **Tool Development**         | C programming, security tool architecture       | ACLGuard repository with source code             |
-| **Professional Skills**      | Client reporting, methodology, ethics           | Controlled environment testing approach          |
+Research is conducted on the [Veil](https://github.com/ForeverLX/veil) infrastructure:
+
+- **Cerberus** — Arch Linux edge node, rootless Podman (primary container research platform)
+- **Tairn** — NixOS 24.11, Mythic C2 + Docker (AD lab work, agent testing)
+- **NightForge** — Arch Linux operator workstation ([nightforge](https://github.com/ForeverLX/nightforge))
 
 ---
 
-## CAREER NARRATIVE
+## Certifications
 
-**Transition:** Physical Security → Technical Offensive Security
-**Approach:** Systematic, evidence-based skill development
-**Proof:** Verifiable certifications + competitive rankings + tool development
-**Leadership:** OWASP Las Vegas Chapter Founder & Leader
-
-My background in physical security provides a holistic understanding of organizational risk. I apply the same systematic approach to offensive security: identify vulnerabilities, demonstrate impact, and provide actionable remediation.
-
----
-
-## Field Report: Engineering a Security-Focused Linux Platform
-
-### Motivation & Design Goals
-
-Offensive workflows demand:
-
-- Low attack surface
-
-- High reliability and responsiveness
-
-- Explicit control over service stacks
-
-- Keyboard-centric operator workflows
-
-- Repeatable, auditable configurations
-
-**Core Stack:**
-
-- Arch Linux (minimal base)
-
-- Sway (Wayland)
-
-- Terminals: Ghostty (primary), Warp (evaluated)
-
-- Browser: Thorium with Wayland flags
-
-- Compatibility via XWayland
+| Certification | Issuer | Status |
+|---|---|---|
+| Active Directory Red Team Specialist (AD-RTS) | CyberWarfare Labs | Completed |
+| Certified Associate Penetration Tester (CAPT) | HackViser | Completed |
+| Certified Offensive Security Junior (COSJ) | RedTeam Ops | Completed |
+| Certified Red Team Analyst (CRTA) | CyberWarfare Labs | In Progress |
+| Certified Red Team Infrastructure Developer (CRT-ID) | CyberWarfare Labs | In Progress |
 
 ---
 
-## Key Engineering Decisions & Tradeoffs
+## Disclaimer
 
-### Wayland over X11
-
-_Rationale:_ Reduced legacy risk and attack surface.
-
-### Minimal Services and No Display Manager
-
-_Rationale:_ Explicit session control, reduce background processes.
-
-### Terminal Selection
-
-- Ghostty (stable, minimal)
-
-- Warp evaluated; usable but not primary due to integration complexity
-
-### Audio Omission as Intentional Design Choice
-
-Audio stacks add complexity with minimal operational benefit in offensive workflows — deliberately excluded to simplify system and reduce surface area.
+All research is conducted on self-operated infrastructure for authorized security research purposes. Findings and techniques are documented for educational and professional development purposes only.
 
 ---
 
-## Troubleshooting & Lessons Learned
-
-- CPU power management tuning before stability caused boot issues — _stability first_.
-
-- Custom PipeWire configs regressed audio state — _baseline resets matter_.
-
-- Applications expecting X11 require XWayland — _compatibility layer provisioned explicitly_.
-
----
-
-## Current Status
-
-- Stable Sway workstation environment
-
-- Minimal services and attack surface
-
-- Explicit session management via TTY
-
-- Audio functioning on clean baseline (reboot enforced)
-
-- Tooling integrated for offensive workflows
-
----
-
-## VERIFICATION LINKS
-
-| Achievement                              | Link                                                                                                  |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Active Directory Red Team Specialist** | [📜 View Certificate](https://labs.cyberwarfare.live/credential/achievement/692075a2524427687600cad2) |
-| **StackSmash Profile**                   | [🥇 3rd of 204](https://members.stacksmash.io/u/0119f178)                                             |
-| **ACLGuard Tool**                        | [🛠️ Repository](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)            |
-| **OWASP Las Vegas**                      | [🌐 Chapter Page](https://owasp.org/www-chapter-las-vegas/)                                           |
-
----
-
-## CONTACT & NEXT STEPS
-
-**Ready for Technical Interviews:**
-
-- Available for technical challenges and live assessments
-
-- Prepared for deep-dive discussions on any portfolio item
-
-- Can provide additional materials upon request
-
-**Connect With Me:**
-
-- **Email:** [Darrius.G@proton.me](mailto:Darrius.G@proton.me)
-
-- **LinkedIn:** [Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
-
-- **GitHub:** [github.com/ForeverLX](https://github.com/ForeverLX)
-
-**Portfolio Last Updated:** February 2026
-
----
-
-_All security testing conducted in controlled, authorized environments for educational purposes. This README is engineered to convey not just activity but disciplined technical judgment._
+**Author:** Darrius Grate (ForeverLX) | Azrael Security™
